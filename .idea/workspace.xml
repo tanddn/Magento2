@@ -1,0 +1,1848 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b5f44eb4-1c7e-41c4-adbd-4d1edc313a02" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Magento2.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/Smacnew/Category/Api/Data/CategoryInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/Smacnew/Category/Model/Category.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/Smacnew/Category/Model/Category/Collection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/Smacnew/Category/Model/ResourceModel/Category.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/Smacnew/Category/etc/frontend/routes.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/Smacnew/Category/etc/module.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/Smacnew/Category/registration.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/.php_cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/COOKBOOK-FIXERS.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/README.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/AbstractAlignFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/AbstractAnnotationRemovalFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/AbstractFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/AbstractLinesBeforeNamespaceFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/AbstractPhpdocTypesFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Config/Config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Config/MagentoConfig.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Config/Symfony23Config.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/ConfigAwareInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/ConfigInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/ConfigurationException/InvalidConfigurationException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/ConfigurationException/InvalidFixerConfigurationException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/ConfigurationResolver.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Console/Application.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Console/Command/FixCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Console/Command/ReadmeCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Console/Command/SelfUpdateCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/DocBlock/Annotation.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/DocBlock/DocBlock.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/DocBlock/Line.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/DocBlock/Tag.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/DocBlock/TagComparator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/ErrorsManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/FileCacheManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/FileRemoval.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Finder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Finder/DefaultFinder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Finder/MagentoFinder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Finder/Symfony23Finder.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/FinderInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/AlignDoubleArrowFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/AlignEqualsFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/ClassKeywordRemoveFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/CombineConsecutiveUnsetsFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/ConcatWithSpacesFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/EchoToPrintFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/EmptyReturnFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/EregToPregFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/HeaderCommentFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/LogicalNotOperatorsWithSpacesFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/LogicalNotOperatorsWithSuccessorSpaceFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/LongArraySyntaxFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/MbStrFunctionsFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/MultilineSpacesBeforeSemicolonFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/NewlineAfterOpenTagFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/NoBlankLinesBeforeNamespaceFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/NoUselessElseFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/NoUselessReturnFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/OrderedUseFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/Php4ConstructorFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/PhpUnitConstructFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/PhpUnitDedicateAssertFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/PhpUnitStrictFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/PhpdocOrderFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/PhpdocVarToTypeFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/ProtectedToPrivateFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/ShortArraySyntaxFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/ShortEchoTagFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/SilencedDeprecationErrorFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/StrictFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/StrictParamFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR0/Psr0Fixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR1/EncodingFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR1/ShortTagFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/BracesFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/ClassDefinitionFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/ElseifFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/EofEndingFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/FunctionCallSpaceFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/FunctionDeclarationFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/IndentationFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/LineAfterNamespaceFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/LinefeedFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/LowercaseConstantsFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/LowercaseKeywordsFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/MethodArgumentSpaceFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/MultipleUseFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/NoTrailingWhitespaceInCommentFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/ParenthesisFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/PhpClosingTagFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/SingleLineAfterImportsFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/SwitchCaseSemicolonToColonFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/SwitchCaseSpaceFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/TrailingSpacesFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/VisibilityFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/ArrayElementNoSpaceBeforeCommaFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/ArrayElementWhiteSpaceAfterCommaFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/BlanklineAfterOpenTagFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/ConcatWithoutSpacesFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/DeclareEqualNormalizeFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/DoubleArrowMultilineWhitespacesFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/DuplicateSemicolonFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/ExtraEmptyLinesFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/FunctionTypehintSpaceFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/HashToSlashCommentFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/HeredocToNowdocFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/IncludeFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/JoinFunctionFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/ListCommasFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/LowercaseCastFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/MethodArgumentDefaultValueFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/MultilineArrayTrailingCommaFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/NamespaceNoLeadingWhitespaceFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/NativeFunctionCasingFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/NewWithBracesFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/NoBlankLinesAfterClassOpeningFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/NoEmptyCommentFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/NoEmptyLinesAfterPhpdocsFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/NoEmptyPhpdocFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/NoEmptyStatementFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/ObjectOperatorFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/OperatorsSpacesFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpUnitFqcnAnnotationFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocAnnotationWithoutDotFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocIndentFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocInlineTagFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocNoAccessFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocNoEmptyReturnFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocNoPackageFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocParamsFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocScalarFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocSeparationFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocShortDescriptionFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocSingleLineVarSpacingFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocToCommentFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocTrimFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocTypeToVarFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocTypesFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocVarWithoutNameFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PreIncrementFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PrintToEchoFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/RemoveLeadingSlashUseFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/RemoveLinesBetweenUsesFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/ReturnFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/SelfAccessorFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/ShortBoolCastFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/ShortScalarCastFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/SingleArrayNoTrailingCommaFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/SingleBlankLineBeforeNamespaceFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/SingleQuoteFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/SpacesAfterSemicolonFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/SpacesBeforeSemicolonFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/SpacesCastFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/StandardizeNotEqualFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/TernarySpacesFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/TrimArraySpacesFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/UnalignDoubleArrowFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/UnalignEqualsFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/UnaryOperatorsSpacesFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/UnneededControlParenthesesFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/UnusedUseFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/WhitespacyLinesFixer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/FixerFileProcessedEvent.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/FixerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/LintManager.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Resources/phar-stub.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/StdinFileInfo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Test/IntegrationCase.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Test/IntegrationCaseFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Tokenizer/AbstractTransformer.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Tokenizer/Token.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Tokenizer/Tokens.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Tokenizer/Transformer/ArrayTypehint.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Tokenizer/Transformer/ClassConstant.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Tokenizer/Transformer/CurlyClose.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Tokenizer/Transformer/DollarCloseCurlyBraces.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Tokenizer/Transformer/DynamicPropBrace.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Tokenizer/Transformer/DynamicVarBrace.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Tokenizer/TransformerInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Tokenizer/Transformers.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/ToolInfo.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/UniqueFileIterator.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Utils.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/benchmark.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/box.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/php-cs-fixer" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2" afterPath="$PROJECT_DIR$/Magento2" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Magento2/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/app/code/Smacnew/Category/Api/Data/CategoryInterface.php" afterPath="$PROJECT_DIR$/Magento2/app/code/Smacnew/Category/Api/Data/CategoryInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/app/code/Smacnew/Category/Model/Category.php" afterPath="$PROJECT_DIR$/Magento2/app/code/Smacnew/Category/Model/Category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/app/code/Smacnew/Category/Model/Category/Collection.php" afterPath="$PROJECT_DIR$/Magento2/app/code/Smacnew/Category/Model/Category/Collection.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/app/code/Smacnew/Category/Model/ResourceModel/Category.php" afterPath="$PROJECT_DIR$/Magento2/app/code/Smacnew/Category/Model/ResourceModel/Category.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/app/code/Smacnew/Category/etc/frontend/routes.xml" afterPath="$PROJECT_DIR$/Magento2/app/code/Smacnew/Category/etc/frontend/routes.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/app/code/Smacnew/Category/etc/module.xml" afterPath="$PROJECT_DIR$/Magento2/app/code/Smacnew/Category/etc/module.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/app/code/Smacnew/Category/registration.php" afterPath="$PROJECT_DIR$/Magento2/app/code/Smacnew/Category/registration.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/composer.lock" afterPath="$PROJECT_DIR$/Magento2/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/var/generation/Magento/Authorization/Model/Acl/Role/GroupFactory.php" afterPath="$PROJECT_DIR$/Magento2/var/generation/Magento/Authorization/Model/Acl/Role/GroupFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/var/generation/Magento/Authorization/Model/Acl/Role/UserFactory.php" afterPath="$PROJECT_DIR$/Magento2/var/generation/Magento/Authorization/Model/Acl/Role/UserFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/var/generation/Magento/Catalog/Model/ResourceModel/ConfigFactory.php" afterPath="$PROJECT_DIR$/Magento2/var/generation/Magento/Catalog/Model/ResourceModel/ConfigFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/var/generation/Magento/Framework/Translate/Inline/ConfigInterface/Proxy.php" afterPath="$PROJECT_DIR$/Magento2/var/generation/Magento/Framework/Translate/Inline/ConfigInterface/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/var/generation/Magento/Framework/Translate/Inline/ParserInterface/Proxy.php" afterPath="$PROJECT_DIR$/Magento2/var/generation/Magento/Framework/Translate/Inline/ParserInterface/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/var/generation/Magento/Framework/View/Design/Theme/CustomizationFactory.php" afterPath="$PROJECT_DIR$/Magento2/var/generation/Magento/Framework/View/Design/Theme/CustomizationFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/var/generation/Magento/Framework/View/LayoutInterface/Proxy.php" afterPath="$PROJECT_DIR$/Magento2/var/generation/Magento/Framework/View/LayoutInterface/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/var/generation/Magento/Indexer/Model/Config/Data/Interceptor.php" afterPath="$PROJECT_DIR$/Magento2/var/generation/Magento/Indexer/Model/Config/Data/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/var/generation/Magento/Indexer/Model/Config/Data/Proxy.php" afterPath="$PROJECT_DIR$/Magento2/var/generation/Magento/Indexer/Model/Config/Data/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/var/generation/Magento/Indexer/Model/Indexer/StateFactory.php" afterPath="$PROJECT_DIR$/Magento2/var/generation/Magento/Indexer/Model/Indexer/StateFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/var/generation/Magento/Indexer/Model/ResourceModel/Indexer/State/CollectionFactory.php" afterPath="$PROJECT_DIR$/Magento2/var/generation/Magento/Indexer/Model/ResourceModel/Indexer/State/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/var/generation/Magento/Integration/Model/IntegrationFactory.php" afterPath="$PROJECT_DIR$/Magento2/var/generation/Magento/Integration/Model/IntegrationFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/var/generation/Magento/Integration/Model/IntegrationService/Interceptor.php" afterPath="$PROJECT_DIR$/Magento2/var/generation/Magento/Integration/Model/IntegrationService/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/var/generation/Magento/Integration/Model/Oauth/ConsumerFactory.php" afterPath="$PROJECT_DIR$/Magento2/var/generation/Magento/Integration/Model/Oauth/ConsumerFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/var/generation/Magento/Integration/Model/Oauth/TokenFactory.php" afterPath="$PROJECT_DIR$/Magento2/var/generation/Magento/Integration/Model/Oauth/TokenFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/var/generation/Magento/Store/Api/Data/GroupExtensionInterface.php" afterPath="$PROJECT_DIR$/Magento2/var/generation/Magento/Store/Api/Data/GroupExtensionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/var/generation/Magento/Store/Api/Data/WebsiteExtensionInterface.php" afterPath="$PROJECT_DIR$/Magento2/var/generation/Magento/Store/Api/Data/WebsiteExtensionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/var/generation/Magento/Store/Model/Group/Interceptor.php" afterPath="$PROJECT_DIR$/Magento2/var/generation/Magento/Store/Model/Group/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/var/generation/Magento/Store/Model/ResourceModel/Group/Interceptor.php" afterPath="$PROJECT_DIR$/Magento2/var/generation/Magento/Store/Model/ResourceModel/Group/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/var/generation/Magento/Store/Model/Website/Interceptor.php" afterPath="$PROJECT_DIR$/Magento2/var/generation/Magento/Store/Model/Website/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/var/generation/Magento/Theme/Model/ResourceModel/Theme/Data/CollectionFactory.php" afterPath="$PROJECT_DIR$/Magento2/var/generation/Magento/Theme/Model/ResourceModel/Theme/Data/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/Magento2/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/composer/spdx-licenses/CHANGELOG.md" afterPath="$PROJECT_DIR$/Magento2/vendor/composer/spdx-licenses/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/composer/spdx-licenses/res/spdx-licenses.json" afterPath="$PROJECT_DIR$/Magento2/vendor/composer/spdx-licenses/res/spdx-licenses.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/config/Tests/Definition/Builder/ArrayNodeDefinitionTest.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/config/Tests/Definition/Builder/ArrayNodeDefinitionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/config/Tests/Definition/Builder/TreeBuilderTest.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/config/Tests/Definition/Builder/TreeBuilderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/config/Tests/Fixtures/Builder/BarNodeDefinition.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/config/Tests/Fixtures/Builder/BarNodeDefinition.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/Compiler/AutowirePass.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/Compiler/AutowirePass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/ContainerBuilder.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/ContainerBuilder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/Dumper/PhpDumper.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/Dumper/PhpDumper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/Loader/YamlFileLoader.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/Loader/YamlFileLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/Tests/Compiler/AutowirePassTest.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/Tests/Compiler/AutowirePassTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/Tests/Compiler/CheckCircularReferencesPassTest.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/Tests/Compiler/CheckCircularReferencesPassTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/Tests/Compiler/CheckDefinitionValidityPassTest.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/Tests/Compiler/CheckDefinitionValidityPassTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/Tests/Compiler/CheckExceptionOnInvalidReferenceBehaviorPassTest.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/Tests/Compiler/CheckExceptionOnInvalidReferenceBehaviorPassTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/Tests/Compiler/CheckReferenceValidityPassTest.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/Tests/Compiler/CheckReferenceValidityPassTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/Tests/Dumper/PhpDumperTest.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/Tests/Dumper/PhpDumperTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/Tests/Dumper/XmlDumperTest.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/Tests/Dumper/XmlDumperTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/Tests/Fixtures/php/services24.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/Tests/Fixtures/php/services24.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/Tests/Loader/YamlFileLoaderTest.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/dependency-injection/Tests/Loader/YamlFileLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/event-dispatcher/EventDispatcher.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/event-dispatcher/EventDispatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/event-dispatcher/Tests/Debug/TraceableEventDispatcherTest.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/event-dispatcher/Tests/Debug/TraceableEventDispatcherTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/filesystem/Filesystem.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/filesystem/Filesystem.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/filesystem/Tests/FilesystemTest.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/filesystem/Tests/FilesystemTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/finder/Tests/FinderTest.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/finder/Tests/FinderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/yaml/Inline.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/yaml/Inline.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/yaml/Parser.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/yaml/Parser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/yaml/Tests/DumperTest.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/yaml/Tests/DumperTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/symfony/yaml/Tests/ParserTest.php" afterPath="$PROJECT_DIR$/Magento2/vendor/symfony/yaml/Tests/ParserTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/src/XPathQuery.php" afterPath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/src/XPathQuery.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/src/XPathQueryException.php" afterPath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/src/XPathQueryException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/src/css/Translator.php" afterPath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/src/css/Translator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/src/fDOMDocument.php" afterPath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/src/fDOMDocument.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/src/fDOMDocumentFragment.php" afterPath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/src/fDOMDocumentFragment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/src/fDOMElement.php" afterPath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/src/fDOMElement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/src/fDOMException.php" afterPath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/src/fDOMException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/src/fDOMNode.php" afterPath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/src/fDOMNode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/src/fDOMXPath.php" afterPath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/src/fDOMXPath.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/tests/XPathQuery.test.php" afterPath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/tests/XPathQuery.test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/tests/fDOMDocument.test.php" afterPath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/tests/fDOMDocument.test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/tests/fDOMDocumentFragment.test.php" afterPath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/tests/fDOMDocumentFragment.test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/tests/fDOMElement.test.php" afterPath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/tests/fDOMElement.test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/tests/fDOMXPath.test.php" afterPath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/tests/fDOMXPath.test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/config.php" afterPath="$PROJECT_DIR$/app/etc/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/env.php" afterPath="$PROJECT_DIR$/app/etc/env.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/magento" afterPath="$PROJECT_DIR$/bin/magento" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Authorization/Model/Acl/Role/GroupFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Authorization/Model/Acl/Role/GroupFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Authorization/Model/Acl/Role/UserFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Authorization/Model/Acl/Role/UserFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Authorization/Model/RoleFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Authorization/Model/RoleFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Backend/App/Request/PathInfoProcessor/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Backend/App/Request/PathInfoProcessor/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Backend/Model/Auth/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Backend/Model/Auth/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Backend/Model/Locale/Resolver/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Backend/Model/Locale/Resolver/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Backend/Model/UrlInterface/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Backend/Model/UrlInterface/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Captcha/Model/ResourceModel/LogFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Captcha/Model/ResourceModel/LogFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Api/Data/CategoryExtensionInterface.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Api/Data/CategoryExtensionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Api/Data/ProductLinkAttributeInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Api/Data/ProductLinkAttributeInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Api/Data/ProductLinkTypeInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Api/Data/ProductLinkTypeInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Api/Data/ProductSearchResultsInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Api/Data/ProductSearchResultsInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Api/ProductRepositoryInterface/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Api/ProductRepositoryInterface/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Block/Product/ImageFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Block/Product/ImageFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Controller/Adminhtml/Product/Initialization/Helper/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Controller/Adminhtml/Product/Initialization/Helper/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Helper/ImageFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Helper/ImageFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Attribute/Backend/Customlayoutupdate/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Attribute/Backend/Customlayoutupdate/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Attribute/Backend/Startdate/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Attribute/Backend/Startdate/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Attribute/Config/Data/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Attribute/Config/Data/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Category/Attribute/Backend/Image/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Category/Attribute/Backend/Image/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Category/Attribute/Backend/Sortby/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Category/Attribute/Backend/Sortby/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Category/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Category/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/CategoryFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/CategoryFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Layer/Category/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Layer/Category/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Layer/StateFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Layer/StateFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Product/Attribute/Repository/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Product/Attribute/Repository/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Product/ImageFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Product/ImageFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Product/Initialization/Helper/ProductLinks/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Product/Initialization/Helper/ProductLinks/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Product/LinkFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Product/LinkFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Product/ReservedAttributeList/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Product/ReservedAttributeList/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Product/TypeFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Product/TypeFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ProductFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ProductFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ProductRepository/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ProductRepository/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ProductTypes/Config/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ProductTypes/Config/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ResourceModel/Attribute/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ResourceModel/Attribute/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ResourceModel/Category/CollectionFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ResourceModel/Category/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ResourceModel/Category/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ResourceModel/Category/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ResourceModel/Category/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ResourceModel/Category/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ResourceModel/Category/TreeFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ResourceModel/Category/TreeFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ResourceModel/ConfigFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ResourceModel/ConfigFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ResourceModel/Eav/Attribute/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ResourceModel/Eav/Attribute/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ResourceModel/Product/Attribute/CollectionFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ResourceModel/Product/Attribute/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ResourceModel/Product/CollectionFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ResourceModel/Product/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ResourceModel/Product/Compare/Item/CollectionFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ResourceModel/Product/Compare/Item/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ResourceModel/Product/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ResourceModel/Product/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Session/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Session/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Session/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/Session/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/CatalogInventory/Api/Data/StockCollectionInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/CatalogInventory/Api/Data/StockCollectionInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/CatalogInventory/Api/Data/StockInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/CatalogInventory/Api/Data/StockInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/CatalogInventory/Api/Data/StockItemCollectionInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/CatalogInventory/Api/Data/StockItemCollectionInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/CatalogInventory/Api/Data/StockItemInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/CatalogInventory/Api/Data/StockItemInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/CatalogInventory/Api/Data/StockStatusCollectionInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/CatalogInventory/Api/Data/StockStatusCollectionInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/CatalogInventory/Api/Data/StockStatusInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/CatalogInventory/Api/Data/StockStatusInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/CatalogInventory/Api/StockCriteriaInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/CatalogInventory/Api/StockCriteriaInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/CatalogInventory/Api/StockItemCriteriaInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/CatalogInventory/Api/StockItemCriteriaInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/CatalogInventory/Api/StockStatusCriteriaInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/CatalogInventory/Api/StockStatusCriteriaInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/CatalogInventory/Model/Stock/StatusFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/CatalogInventory/Model/Stock/StatusFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/CatalogInventory/Model/StockFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/CatalogInventory/Model/StockFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Checkout/Block/Cart/Sidebar/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Checkout/Block/Cart/Sidebar/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Checkout/Model/Cart/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Checkout/Model/Cart/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Checkout/Model/Session/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Checkout/Model/Session/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Cms/Model/PageFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Cms/Model/PageFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Cms/Model/ResourceModel/Page/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Cms/Model/ResourceModel/Page/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Config/Model/Config/Backend/Encrypted/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Config/Model/Config/Backend/Encrypted/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Config/Model/ResourceModel/Config/Data/Collection/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Config/Model/ResourceModel/Config/Data/Collection/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Config/Model/ResourceModel/Config/Data/CollectionFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Config/Model/ResourceModel/Config/Data/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/AccountManagementInterface/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/AccountManagementInterface/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/CustomerRepositoryInterface/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/CustomerRepositoryInterface/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/Data/AddressInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/Data/AddressInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/Data/AddressSearchResultsInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/Data/AddressSearchResultsInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/Data/AttributeMetadataInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/Data/AttributeMetadataInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/Data/CustomerInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/Data/CustomerInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/Data/CustomerSearchResultsInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/Data/CustomerSearchResultsInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/Data/GroupInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/Data/GroupInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/Data/GroupSearchResultsInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/Data/GroupSearchResultsInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/Data/OptionInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/Data/OptionInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/Data/RegionInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/Data/RegionInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/Data/ValidationResultsInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/Data/ValidationResultsInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/Data/ValidationRuleInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/Data/ValidationRuleInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/GroupManagementInterface/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/GroupManagementInterface/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/GroupRepositoryInterface/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Api/GroupRepositoryInterface/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/AccountManagement/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/AccountManagement/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/AddressFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/AddressFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/Config/Share/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/Config/Share/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/Config/Share/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/Config/Share/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/CustomerFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/CustomerFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/Data/CustomerSecureFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/Data/CustomerSecureFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/GroupFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/GroupFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/ResourceModel/Address/CollectionFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/ResourceModel/Address/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/ResourceModel/Address/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/ResourceModel/Address/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/ResourceModel/Customer/CollectionFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/ResourceModel/Customer/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/ResourceModel/Customer/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/ResourceModel/Customer/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/ResourceModel/Customer/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/ResourceModel/Customer/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/ResourceModel/CustomerRepository/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/ResourceModel/CustomerRepository/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/ResourceModel/Form/Attribute/CollectionFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/ResourceModel/Form/Attribute/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/ResourceModel/GroupRepository/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/ResourceModel/GroupRepository/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/ResourceModel/Visitor/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/ResourceModel/Visitor/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/Session/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/Session/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/Session/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/Session/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/Url/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/Url/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Developer/Model/TemplateEngine/Decorator/DebugHintsFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Developer/Model/TemplateEngine/Decorator/DebugHintsFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Directory/Helper/Data/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Directory/Helper/Data/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Directory/Model/CurrencyFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Directory/Model/CurrencyFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Directory/Model/ResourceModel/CountryFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Directory/Model/ResourceModel/CountryFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Directory/Model/ResourceModel/Region/CollectionFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Directory/Model/ResourceModel/Region/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Api/Data/AttributeExtensionInterface.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Api/Data/AttributeExtensionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Api/Data/AttributeOptionInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Api/Data/AttributeOptionInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Api/Data/AttributeSearchResultsInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Api/Data/AttributeSearchResultsInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Api/Data/AttributeSetExtensionInterface.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Api/Data/AttributeSetExtensionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Adminhtml/System/Config/Source/Inputtype/ValidatorFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Adminhtml/System/Config/Source/Inputtype/ValidatorFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Adminhtml/System/Config/Source/InputtypeFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Adminhtml/System/Config/Source/InputtypeFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Entity/Attribute/Backend/Datetime/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Entity/Attribute/Backend/Datetime/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Entity/Attribute/Backend/DefaultBackend/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Entity/Attribute/Backend/DefaultBackend/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Entity/Attribute/Backend/Increment/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Entity/Attribute/Backend/Increment/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Entity/Attribute/Backend/Time/Created/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Entity/Attribute/Backend/Time/Created/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Entity/Attribute/Backend/Time/Updated/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Entity/Attribute/Backend/Time/Updated/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Entity/Attribute/GroupFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Entity/Attribute/GroupFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Entity/Attribute/Set/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Entity/Attribute/Set/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Entity/Attribute/SetFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Entity/Attribute/SetFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Entity/AttributeFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Entity/AttributeFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Entity/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Entity/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Entity/StoreFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Entity/StoreFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Entity/TypeFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/Entity/TypeFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/EntityFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/EntityFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/ResourceModel/Entity/Attribute/CollectionFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/ResourceModel/Entity/Attribute/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/ResourceModel/Entity/Attribute/Group/CollectionFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/ResourceModel/Entity/Attribute/Group/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/ResourceModel/Entity/Attribute/GroupFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/ResourceModel/Entity/Attribute/GroupFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/ResourceModel/Entity/Attribute/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/ResourceModel/Entity/Attribute/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/ResourceModel/Entity/Attribute/Set/CollectionFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/ResourceModel/Entity/Attribute/Set/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/ResourceModel/Entity/Type/CollectionFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Eav/Model/ResourceModel/Entity/Type/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Acl/Cache/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/Acl/Cache/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Api/Data/ImageContentInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/Api/Data/ImageContentInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/App/Action/Forward/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/App/Action/Forward/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/App/Cache/Type/Config/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/App/Cache/Type/Config/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/App/Config/ConfigSourceAggregated/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/App/Config/ConfigSourceAggregated/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/App/Config/FileResolver/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/App/Config/FileResolver/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/App/Config/Initial/Converter/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/App/Config/Initial/Converter/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/App/Config/Initial/Reader/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/App/Config/Initial/Reader/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/App/Config/InitialConfigSource/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/App/Config/InitialConfigSource/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/App/Config/PostProcessorComposite/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/App/Config/PostProcessorComposite/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/App/Config/Value/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/App/Config/Value/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/App/FrontController/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/App/FrontController/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/App/PageCache/Cache/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/App/PageCache/Cache/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/App/PageCache/Identifier/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/App/PageCache/Identifier/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/App/Request/Http/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/App/Request/Http/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/App/ResourceConnection/Config/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/App/ResourceConnection/Config/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/App/ResourceConnection/Config/Reader/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/App/ResourceConnection/Config/Reader/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/App/ResourceConnection/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/App/ResourceConnection/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/App/Response/Http/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/App/Response/Http/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/App/Route/Config/Reader/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/App/Route/Config/Reader/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Cache/Config/Reader/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/Cache/Config/Reader/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Config/ReaderPool/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/Config/ReaderPool/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Config/ThemeFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/Config/ThemeFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Controller/Result/ForwardFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/Controller/Result/ForwardFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/DB/QueryBuilderFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/DB/QueryBuilderFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Data/Argument/InterpreterInterface/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/Data/Argument/InterpreterInterface/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Data/CollectionFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/Data/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/DataObjectFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/DataObjectFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Event/Config/Reader/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/Event/Config/Reader/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Event/Manager/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/Event/Manager/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Locale/Resolver/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/Locale/Resolver/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Message/Session/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/Message/Session/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Message/Session/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/Message/Session/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Model/ActionValidator/RemoveAction/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/Model/ActionValidator/RemoveAction/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/ObjectManager/Config/Reader/Dom/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/ObjectManager/Config/Reader/Dom/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Reflection/CustomAttributesProcessor/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/Reflection/CustomAttributesProcessor/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Reflection/ExtensionAttributesProcessor/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/Reflection/ExtensionAttributesProcessor/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Session/Generic/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/Session/Generic/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Session/Generic/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/Session/Generic/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Session/SidResolver/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/Session/SidResolver/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Translate/Inline/ConfigInterface/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/Translate/Inline/ConfigInterface/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Translate/Inline/ParserInterface/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/Translate/Inline/ParserInterface/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Translate/ResourceInterface/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/Translate/ResourceInterface/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Url/RouteParamsResolver/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/Url/RouteParamsResolver/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Url/SecurityInfo/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/Url/SecurityInfo/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/View/Asset/MergeService/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/View/Asset/MergeService/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/View/Design/Theme/CustomizationFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/View/Design/Theme/CustomizationFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/View/Layout/File/Collector/Aggregated/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/View/Layout/File/Collector/Aggregated/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/View/Layout/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/View/Layout/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/View/LayoutInterface/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/View/LayoutInterface/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/View/Model/Layout/Merge/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/View/Model/Layout/Merge/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/View/Model/Layout/Update/ValidatorFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/View/Model/Layout/Update/ValidatorFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/View/Page/Config/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/View/Page/Config/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/View/Result/Page/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/View/Result/Page/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/View/TemplateEngineFactory/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Framework/View/TemplateEngineFactory/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Indexer/Model/Config/Data/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Indexer/Model/Config/Data/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Indexer/Model/Config/Data/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Indexer/Model/Config/Data/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Indexer/Model/Indexer/StateFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Indexer/Model/Indexer/StateFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Indexer/Model/ResourceModel/Indexer/State/CollectionFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Indexer/Model/ResourceModel/Indexer/State/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Integration/Model/IntegrationFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Integration/Model/IntegrationFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Integration/Model/IntegrationService/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Integration/Model/IntegrationService/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Integration/Model/Oauth/ConsumerFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Integration/Model/Oauth/ConsumerFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Integration/Model/Oauth/TokenFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Integration/Model/Oauth/TokenFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/MediaStorage/Model/File/Storage/DatabaseFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/MediaStorage/Model/File/Storage/DatabaseFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/MediaStorage/Model/File/Storage/File/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/MediaStorage/Model/File/Storage/File/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/MediaStorage/Model/File/UploaderFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/MediaStorage/Model/File/UploaderFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/NewRelicReporting/Model/UsersFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/NewRelicReporting/Model/UsersFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Payment/Model/Method/ConfigInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Payment/Model/Method/ConfigInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Payment/Model/Source/CctypeFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Payment/Model/Source/CctypeFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Paypal/Model/CertFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Paypal/Model/CertFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Paypal/Model/ConfigFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Paypal/Model/ConfigFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Paypal/Model/PayflowlinkFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Paypal/Model/PayflowlinkFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Paypal/Model/ProFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Paypal/Model/ProFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Persistent/Model/Persistent/ConfigFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Persistent/Model/Persistent/ConfigFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Persistent/Model/SessionFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Persistent/Model/SessionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Quote/Api/Data/CartSearchResultsInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Quote/Api/Data/CartSearchResultsInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Quote/Model/QuoteFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Quote/Model/QuoteFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Quote/Model/QuoteIdMaskFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Quote/Model/QuoteIdMaskFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Quote/Model/QuoteRepository/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Quote/Model/QuoteRepository/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Quote/Model/ResourceModel/Quote/Collection/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Quote/Model/ResourceModel/Quote/Collection/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Review/Model/ReviewFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Review/Model/ReviewFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Model/OrderFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Sales/Model/OrderFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Model/ResourceModel/Order/Tax/ItemFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Sales/Model/ResourceModel/Order/Tax/ItemFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Store/Api/Data/GroupExtensionInterface.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Store/Api/Data/GroupExtensionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Store/Api/Data/StoreExtensionInterface.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Store/Api/Data/StoreExtensionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Store/Api/Data/WebsiteExtensionInterface.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Store/Api/Data/WebsiteExtensionInterface.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Store/Block/Switcher/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Store/Block/Switcher/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Store/Model/Group/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Store/Model/Group/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Store/Model/GroupFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Store/Model/GroupFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Store/Model/ResourceModel/Group/CollectionFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Store/Model/ResourceModel/Group/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Store/Model/ResourceModel/Group/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Store/Model/ResourceModel/Group/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Store/Model/ResourceModel/Store/CollectionFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Store/Model/ResourceModel/Store/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Store/Model/ResourceModel/Store/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Store/Model/ResourceModel/Store/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Store/Model/ResourceModel/Website/CollectionFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Store/Model/ResourceModel/Website/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Store/Model/ResourceModel/Website/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Store/Model/ResourceModel/Website/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Store/Model/Store/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Store/Model/Store/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Store/Model/StoreFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Store/Model/StoreFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Store/Model/StoreManagerInterface/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Store/Model/StoreManagerInterface/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Store/Model/Website/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Store/Model/Website/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Store/Model/WebsiteFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Store/Model/WebsiteFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Swatches/Block/Adminhtml/Product/Attribute/Edit/FormFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Swatches/Block/Adminhtml/Product/Attribute/Edit/FormFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Tax/Api/Data/OrderTaxDetailsAppliedTaxInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Tax/Api/Data/OrderTaxDetailsAppliedTaxInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Tax/Api/Data/OrderTaxDetailsInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Tax/Api/Data/OrderTaxDetailsInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Tax/Api/Data/OrderTaxDetailsItemInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Tax/Api/Data/OrderTaxDetailsItemInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Tax/Api/Data/QuoteDetailsInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Tax/Api/Data/QuoteDetailsInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Tax/Api/Data/QuoteDetailsItemInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Tax/Api/Data/QuoteDetailsItemInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Tax/Api/Data/TaxClassKeyInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Tax/Api/Data/TaxClassKeyInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Tax/Api/Data/TaxClassSearchResultsInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Tax/Api/Data/TaxClassSearchResultsInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Tax/Api/Data/TaxDetailsInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Tax/Api/Data/TaxDetailsInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Tax/Api/Data/TaxDetailsItemInterfaceFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Tax/Api/Data/TaxDetailsItemInterfaceFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Tax/Helper/Data/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Tax/Helper/Data/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Tax/Model/Calculation/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Tax/Model/Calculation/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Tax/Model/CalculationFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Tax/Model/CalculationFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Tax/Model/ClassModelFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Tax/Model/ClassModelFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Tax/Model/Config/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Tax/Model/Config/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Tax/Model/ResourceModel/Sales/Order/Tax/CollectionFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Tax/Model/ResourceModel/Sales/Order/Tax/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Tax/Model/ResourceModel/TaxClass/CollectionFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Tax/Model/ResourceModel/TaxClass/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Theme/Block/Html/Topmenu/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Theme/Block/Html/Topmenu/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Theme/Model/Design/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Theme/Model/Design/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Theme/Model/ResourceModel/Theme/CollectionFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Theme/Model/ResourceModel/Theme/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Theme/Model/ResourceModel/Theme/Data/CollectionFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Theme/Model/ResourceModel/Theme/Data/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Theme/Model/ResourceModel/Theme/File/CollectionFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Theme/Model/ResourceModel/Theme/File/CollectionFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Theme/Model/ThemeFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Theme/Model/ThemeFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Theme/Model/View/Design/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Theme/Model/View/Design/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Translation/Model/ResourceModel/TranslateFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Translation/Model/ResourceModel/TranslateFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Translation/Model/Source/InitialTranslationSource/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Translation/Model/Source/InitialTranslationSource/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/UrlRewrite/Model/Storage/DbStorage/Interceptor.php" afterPath="$PROJECT_DIR$/var/generation/Magento/UrlRewrite/Model/Storage/DbStorage/Interceptor.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/UrlRewrite/Service/V1/Data/UrlRewriteFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/UrlRewrite/Service/V1/Data/UrlRewriteFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Variable/Model/VariableFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Variable/Model/VariableFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Weee/Model/Tax/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Weee/Model/Tax/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Widget/Model/Config/Reader/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Widget/Model/Config/Reader/Proxy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Wishlist/Model/WishlistFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Wishlist/Model/WishlistFactory.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/spdx-licenses/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/composer/spdx-licenses/CHANGELOG.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/spdx-licenses/res/spdx-licenses.json" afterPath="$PROJECT_DIR$/vendor/composer/spdx-licenses/res/spdx-licenses.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/config/Tests/Definition/Builder/ArrayNodeDefinitionTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/config/Tests/Definition/Builder/ArrayNodeDefinitionTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/config/Tests/Definition/Builder/TreeBuilderTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/config/Tests/Definition/Builder/TreeBuilderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/config/Tests/Fixtures/Builder/BarNodeDefinition.php" afterPath="$PROJECT_DIR$/vendor/symfony/config/Tests/Fixtures/Builder/BarNodeDefinition.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Compiler/AutowirePass.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Compiler/AutowirePass.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/ContainerBuilder.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/ContainerBuilder.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Dumper/PhpDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Dumper/PhpDumper.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Loader/YamlFileLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Loader/YamlFileLoader.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/AutowirePassTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/AutowirePassTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/CheckCircularReferencesPassTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/CheckCircularReferencesPassTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/CheckDefinitionValidityPassTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/CheckDefinitionValidityPassTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/CheckExceptionOnInvalidReferenceBehaviorPassTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/CheckExceptionOnInvalidReferenceBehaviorPassTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/CheckReferenceValidityPassTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/CheckReferenceValidityPassTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Dumper/PhpDumperTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Dumper/PhpDumperTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Dumper/XmlDumperTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Dumper/XmlDumperTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Fixtures/php/services24.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Fixtures/php/services24.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Loader/YamlFileLoaderTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Loader/YamlFileLoaderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcher.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/Debug/TraceableEventDispatcherTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/Debug/TraceableEventDispatcherTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/filesystem/Filesystem.php" afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/Filesystem.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/filesystem/Tests/FilesystemTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/Tests/FilesystemTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Tests/FinderTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Tests/FinderTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Inline.php" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Inline.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Parser.php" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Parser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/DumperTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/DumperTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/ParserTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/ParserTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/.gitignore" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/.travis.yml" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/README.md" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/XPathQuery.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/XPathQuery.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/XPathQueryException.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/XPathQueryException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/css/Translator.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/css/Translator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/fDOMDocument.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/fDOMDocument.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/fDOMDocumentFragment.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/fDOMDocumentFragment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/fDOMElement.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/fDOMElement.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/fDOMException.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/fDOMException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/fDOMNode.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/fDOMNode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/fDOMXPath.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/fDOMXPath.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/tests/Translator.test.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/tests/Translator.test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/tests/XPathQuery.test.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/tests/XPathQuery.test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/tests/fDOMDocument.test.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/tests/fDOMDocument.test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/tests/fDOMDocumentFragment.test.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/tests/fDOMDocumentFragment.test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/tests/fDOMElement.test.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/tests/fDOMElement.test.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/tests/fDOMXPath.test.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/tests/fDOMXPath.test.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="theme.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/theme.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.phtml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Home/view/frontend/templates/home.phtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-12545">
+              <caret line="56" column="56" lean-forward="false" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
+              <folding>
+                <element signature="e#2818#2824#0#HTML" expanded="true" />
+                <element signature="e#2824#2830#0#HTML" expanded="true" />
+                <element signature="e#2881#2887#0#HTML" expanded="true" />
+                <element signature="e#2887#2893#0#HTML" expanded="true" />
+                <element signature="e#2893#2899#0#HTML" expanded="true" />
+                <element signature="e#3025#3031#0#HTML" expanded="true" />
+                <element signature="e#3031#3037#0#HTML" expanded="true" />
+                <element signature="e#3099#3105#0#HTML" expanded="true" />
+                <element signature="e#3105#3111#0#HTML" expanded="true" />
+                <element signature="e#3111#3117#0#HTML" expanded="true" />
+                <element signature="e#3235#3241#0#HTML" expanded="true" />
+                <element signature="e#3241#3247#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#4468#4474#0#HTML" expanded="true" />
+                <element signature="e#4474#4480#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#1;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#8057#8063#0#HTML" expanded="true" />
+                <element signature="e#8063#8069#0#HTML" expanded="true" />
+                <element signature="e#11827#11833#0#HTML" expanded="true" />
+                <element signature="e#11833#11839#0#HTML" expanded="true" />
+                <element signature="e#14340#14346#0#HTML" expanded="true" />
+                <element signature="e#14346#14352#0#HTML" expanded="true" />
+                <element signature="e#16840#16846#0#HTML" expanded="true" />
+                <element signature="e#16846#16852#0#HTML" expanded="true" />
+                <element signature="e#26800#26806#0#HTML" expanded="true" />
+                <element signature="e#26806#26812#0#HTML" expanded="true" />
+                <element signature="e#32737#32743#0#HTML" expanded="true" />
+                <element signature="e#32743#32749#0#HTML" expanded="true" />
+                <element signature="e#42318#42324#0#HTML" expanded="true" />
+                <element signature="e#42324#42330#0#HTML" expanded="true" />
+                <element signature="e#43114#43120#0#HTML" expanded="true" />
+                <element signature="e#43120#43126#0#HTML" expanded="true" />
+                <element signature="e#44243#44249#0#HTML" expanded="true" />
+                <element signature="e#44249#44255#0#HTML" expanded="true" />
+                <element signature="e#44919#44925#0#HTML" expanded="true" />
+                <element signature="e#44925#44931#0#HTML" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/etc/view.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="172" column="29" lean-forward="true" selection-start-line="172" selection-start-column="29" selection-end-line="172" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/magento-theme/layout/default.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/magento/module-theme/view/frontend/layout/default.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="38" column="101" lean-forward="false" selection-start-line="38" selection-start-column="86" selection-end-line="38" selection-end-column="101" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layouts.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/magento/module-theme/view/frontend/layouts.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="requirejs-config.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/magento/module-theme/view/frontend/requirejs-config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="algolia.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/web/plugins/awesome-4.7.0/src/assets/less/site/algolia.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fusion-ad.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/web/plugins/awesome-4.7.0/src/assets/less/site/fusion-ad.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="site.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/web/plugins/awesome-4.7.0/src/assets/less/site.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="XSLT Stylesheet" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Inchoo\Helloworld</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Smacnew\Home</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/code/Smacnew/Category/etc/frontend/routes.xml" />
+        <option value="$PROJECT_DIR$/app/design/Smacnew/tgkd/theme.xml" />
+        <option value="$PROJECT_DIR$/app/design/Smacnew/tgkd/registration.php" />
+        <option value="$PROJECT_DIR$/app/design/Smacnew/tgkd/composer.json" />
+        <option value="$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/registration.php" />
+        <option value="$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/magento-theme/default.xml" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/app/etc/env.php" />
+        <option value="$PROJECT_DIR$/bin/magento" />
+        <option value="$PROJECT_DIR$/app/code/Smacnew/home/registration.php" />
+        <option value="$PROJECT_DIR$/app/code/Smacnew/Home/etc/routes.xml" />
+        <option value="$PROJECT_DIR$/app/code/Smacnew/Home/Controller/Index/Index.php" />
+        <option value="$PROJECT_DIR$/app/code/Smacnew/Home/registration.php" />
+        <option value="$PROJECT_DIR$/app/code/Smacnew/Home/etc/module.xml" />
+        <option value="$PROJECT_DIR$/app/code/Smacnew/Home/view/frontend/templates/home_index_index.xml" />
+        <option value="$PROJECT_DIR$/app/code/Smacnew/Home/view/frontend/layout/home_index_index.xml" />
+        <option value="$PROJECT_DIR$/app/code/Smacnew/Home/Block/Home.php" />
+        <option value="$PROJECT_DIR$/app/code/Smacnew/Home/view/frontend/templates/home.phtml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/theme.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/web/plugins/awesome-4.7.0/src/assets/less/site.less" />
+        <option value="$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/etc/view.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module-theme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module-theme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module-theme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="module-theme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tgkd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tgkd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="magento-theme" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tgkd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="etc" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Home" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="code" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="FullScreen" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="magento/module-theme/view/frontend/templates/html/container.phtml&#9;FILE&#9;file:///Users/locnguyen/Projects/Magento2/vendor/magento/module-theme/view/frontend/templates/html/container.phtml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/web" />
+      <recent name="$PROJECT_DIR$/app/code/Smacnew/Home/view/frontend/templates" />
+      <recent name="$PROJECT_DIR$/app/code/Smacnew/Home/etc/frontend" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/code/Smacnew/Home" />
+      <recent name="$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/media" />
+      <recent name="$PROJECT_DIR$/app/code" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="XSLT" factoryName="XSLT">
+      <option name="myOutputFile" />
+      <option name="myOpenOutputFile" value="false" />
+      <option name="myOpenInBrowser" value="false" />
+      <option name="mySmartErrorHandling" value="true" />
+      <option name="myRunnerPort" value="34873" />
+      <option name="myVmArguments" />
+      <option name="myWorkingDirectory" />
+      <option name="myModule" />
+      <option name="myJdk" />
+      <parameters />
+      <OutputType value="CONSOLE" save-to-file="false" />
+      <FileType name="XML" />
+      <JdkChoice value="FROM_MODULE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5f44eb4-1c7e-41c4-adbd-4d1edc313a02" name="Default" comment="" />
+      <created>1492305953409</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1492305953409</updated>
+      <workItem from="1492305955012" duration="1608000" />
+      <workItem from="1492530443282" duration="606000" />
+      <workItem from="1492821918237" duration="1058000" />
+      <workItem from="1492824253811" duration="5194000" />
+      <workItem from="1492858753716" duration="282000" />
+      <workItem from="1493173990221" duration="6677000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="15425000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23891273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/app/code/Smacnew/Category/Model/ResourceModel/Category.php</url>
+          <line>38</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Category/Api/Data/CategoryInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Category/registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Category/etc/module.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Category/Model/Category/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Category/Model/ResourceModel/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Category/Api/Data/CategoryInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Category/Model/Category/Collection.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/Smacnew/tgkd/composer.json" />
+    <entry file="file://$PROJECT_DIR$/app/design/Smacnew/tgkd/registration.php" />
+    <entry file="file://$PROJECT_DIR$/app/design/Smacnew/tgkd/theme.xml" />
+    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Category/Model/ResourceModel/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="54" lean-forward="false" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="2" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/magento-theme/default.xml" />
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="27" lean-forward="false" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/web/js/jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="49" column="16" lean-forward="false" selection-start-line="49" selection-start-column="16" selection-end-line="49" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/etc/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="34" lean-forward="false" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/etc/env.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="32" lean-forward="false" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/magento">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Magento2/app/design/frontend/Solwin/freego/etc/view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="23" lean-forward="false" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/theme-frontend-luma/etc/view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="23" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/theme-frontend-blank/etc/view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="302" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Category/registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Home/view/frontend/layout/home_index_index.xsl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Category/etc/frontend/routes.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Category/etc/module.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Home/view/frontend/templates/home_index_index.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="7" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Home/Block/Home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="10" lean-forward="false" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Home/Controller/Index/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Home/etc/frontend/routes.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Home/etc/module.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Home/registration.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/static/frontend/Smacnew/tgkd/en_US/images/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/static/frontend/Smacnew/tgkd/en_US/images/logo.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-theme/view/frontend/templates/html/container.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-theme/Block/Html/Header/Logo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1557">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-theme/Block/Html/Header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-theme/view/frontend/templates/html/header/logo.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-theme/view/frontend/templates/html/header.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Home/view/frontend/layout/home_index_index.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Home/view/frontend/templates/home.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12545">
+          <caret line="56" column="56" lean-forward="false" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
+          <folding>
+            <element signature="e#2818#2824#0#HTML" expanded="true" />
+            <element signature="e#2824#2830#0#HTML" expanded="true" />
+            <element signature="e#2881#2887#0#HTML" expanded="true" />
+            <element signature="e#2887#2893#0#HTML" expanded="true" />
+            <element signature="e#2893#2899#0#HTML" expanded="true" />
+            <element signature="e#3025#3031#0#HTML" expanded="true" />
+            <element signature="e#3031#3037#0#HTML" expanded="true" />
+            <element signature="e#3099#3105#0#HTML" expanded="true" />
+            <element signature="e#3105#3111#0#HTML" expanded="true" />
+            <element signature="e#3111#3117#0#HTML" expanded="true" />
+            <element signature="e#3235#3241#0#HTML" expanded="true" />
+            <element signature="e#3241#3247#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#4468#4474#0#HTML" expanded="true" />
+            <element signature="e#4474#4480#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#8057#8063#0#HTML" expanded="true" />
+            <element signature="e#8063#8069#0#HTML" expanded="true" />
+            <element signature="e#11827#11833#0#HTML" expanded="true" />
+            <element signature="e#11833#11839#0#HTML" expanded="true" />
+            <element signature="e#14340#14346#0#HTML" expanded="true" />
+            <element signature="e#14346#14352#0#HTML" expanded="true" />
+            <element signature="e#16840#16846#0#HTML" expanded="true" />
+            <element signature="e#16846#16852#0#HTML" expanded="true" />
+            <element signature="e#26800#26806#0#HTML" expanded="true" />
+            <element signature="e#26806#26812#0#HTML" expanded="true" />
+            <element signature="e#32737#32743#0#HTML" expanded="true" />
+            <element signature="e#32743#32749#0#HTML" expanded="true" />
+            <element signature="e#42318#42324#0#HTML" expanded="true" />
+            <element signature="e#42324#42330#0#HTML" expanded="true" />
+            <element signature="e#43114#43120#0#HTML" expanded="true" />
+            <element signature="e#43120#43126#0#HTML" expanded="true" />
+            <element signature="e#44243#44249#0#HTML" expanded="true" />
+            <element signature="e#44249#44255#0#HTML" expanded="true" />
+            <element signature="e#44919#44925#0#HTML" expanded="true" />
+            <element signature="e#44925#44931#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/theme.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/magento-theme/layout/default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-theme/view/frontend/layout/default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="38" column="101" lean-forward="false" selection-start-line="38" selection-start-column="86" selection-end-line="38" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-theme/view/frontend/layouts.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-theme/view/frontend/requirejs-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/web/plugins/awesome-4.7.0/src/assets/less/site/layout.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/web/plugins/awesome-4.7.0/src/assets/less/site/algolia.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/web/plugins/awesome-4.7.0/src/assets/less/site/fusion-ad.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/web/plugins/awesome-4.7.0/src/assets/less/site.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/etc/view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="172" column="29" lean-forward="true" selection-start-line="172" selection-start-column="29" selection-end-line="172" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

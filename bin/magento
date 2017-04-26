@@ -5,6 +5,7 @@
  * See COPYING.txt for license details.
  */
 
+ini_set('memory_limit', '2G');
 if (PHP_SAPI !== 'cli') {
     echo 'bin/magento must be run as a CLI application';
     exit(1);

@@ -508,7 +508,7 @@ class ComposerStaticInitcd54cc1b895908827736df34f06c228e
         ),
         'Symfony\\CS\\' => 
         array (
-            0 => __DIR__ . '/..' . '/fabpot/php-cs-fixer/Symfony/CS',
+            0 => __DIR__ . '/..' . '/friendsofphp/php-cs-fixer/Symfony/CS',
         ),
         'StaticReview\\' => 
         array (

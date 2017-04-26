@@ -42,7 +42,7 @@ return array(
     'Symfony\\Component\\EventDispatcher\\' => array($vendorDir . '/symfony/event-dispatcher'),
     'Symfony\\Component\\DependencyInjection\\' => array($vendorDir . '/symfony/dependency-injection'),
     'Symfony\\Component\\Config\\' => array($vendorDir . '/symfony/config'),
-    'Symfony\\CS\\' => array($vendorDir . '/fabpot/php-cs-fixer/Symfony/CS'),
+    'Symfony\\CS\\' => array($vendorDir . '/friendsofphp/php-cs-fixer/Symfony/CS'),
     'StaticReview\\' => array($vendorDir . '/sjparkinson/static-review/src'),
     'Seld\\PharUtils\\' => array($vendorDir . '/seld/phar-utils/src'),
     'Seld\\JsonLint\\' => array($vendorDir . '/seld/jsonlint/src/Seld/JsonLint'),
