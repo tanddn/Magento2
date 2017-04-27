@@ -2,203 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5f44eb4-1c7e-41c4-adbd-4d1edc313a02" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Magento2.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/Smacnew/Category/Api/Data/CategoryInterface.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/Smacnew/Category/Model/Category.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/Smacnew/Category/Model/Category/Collection.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/Smacnew/Category/Model/ResourceModel/Category.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/Smacnew/Category/etc/frontend/routes.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/Smacnew/Category/etc/module.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/code/Smacnew/Category/registration.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/.php_cs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/CHANGELOG.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/CONTRIBUTING.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/COOKBOOK-FIXERS.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/README.rst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/AbstractAlignFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/AbstractAnnotationRemovalFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/AbstractFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/AbstractLinesBeforeNamespaceFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/AbstractPhpdocTypesFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Config/Config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Config/MagentoConfig.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Config/Symfony23Config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/ConfigAwareInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/ConfigInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/ConfigurationException/InvalidConfigurationException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/ConfigurationException/InvalidFixerConfigurationException.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/ConfigurationResolver.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Console/Application.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Console/Command/FixCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Console/Command/ReadmeCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Console/Command/SelfUpdateCommand.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/DocBlock/Annotation.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/DocBlock/DocBlock.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/DocBlock/Line.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/DocBlock/Tag.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/DocBlock/TagComparator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/ErrorsManager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/FileCacheManager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/FileRemoval.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Finder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Finder/DefaultFinder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Finder/MagentoFinder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Finder/Symfony23Finder.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/FinderInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/AlignDoubleArrowFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/AlignEqualsFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/ClassKeywordRemoveFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/CombineConsecutiveUnsetsFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/ConcatWithSpacesFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/EchoToPrintFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/EmptyReturnFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/EregToPregFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/HeaderCommentFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/LogicalNotOperatorsWithSpacesFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/LogicalNotOperatorsWithSuccessorSpaceFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/LongArraySyntaxFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/MbStrFunctionsFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/MultilineSpacesBeforeSemicolonFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/NewlineAfterOpenTagFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/NoBlankLinesBeforeNamespaceFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/NoUselessElseFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/NoUselessReturnFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/OrderedUseFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/Php4ConstructorFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/PhpUnitConstructFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/PhpUnitDedicateAssertFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/PhpUnitStrictFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/PhpdocOrderFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/PhpdocVarToTypeFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/ProtectedToPrivateFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/ShortArraySyntaxFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/ShortEchoTagFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/SilencedDeprecationErrorFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/StrictFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Contrib/StrictParamFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR0/Psr0Fixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR1/EncodingFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR1/ShortTagFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/BracesFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/ClassDefinitionFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/ElseifFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/EofEndingFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/FunctionCallSpaceFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/FunctionDeclarationFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/IndentationFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/LineAfterNamespaceFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/LinefeedFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/LowercaseConstantsFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/LowercaseKeywordsFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/MethodArgumentSpaceFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/MultipleUseFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/NoTrailingWhitespaceInCommentFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/ParenthesisFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/PhpClosingTagFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/SingleLineAfterImportsFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/SwitchCaseSemicolonToColonFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/SwitchCaseSpaceFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/TrailingSpacesFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/PSR2/VisibilityFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/ArrayElementNoSpaceBeforeCommaFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/ArrayElementWhiteSpaceAfterCommaFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/BlanklineAfterOpenTagFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/ConcatWithoutSpacesFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/DeclareEqualNormalizeFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/DoubleArrowMultilineWhitespacesFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/DuplicateSemicolonFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/ExtraEmptyLinesFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/FunctionTypehintSpaceFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/HashToSlashCommentFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/HeredocToNowdocFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/IncludeFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/JoinFunctionFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/ListCommasFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/LowercaseCastFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/MethodArgumentDefaultValueFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/MultilineArrayTrailingCommaFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/NamespaceNoLeadingWhitespaceFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/NativeFunctionCasingFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/NewWithBracesFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/NoBlankLinesAfterClassOpeningFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/NoEmptyCommentFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/NoEmptyLinesAfterPhpdocsFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/NoEmptyPhpdocFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/NoEmptyStatementFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/ObjectOperatorFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/OperatorsSpacesFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpUnitFqcnAnnotationFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocAnnotationWithoutDotFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocIndentFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocInlineTagFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocNoAccessFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocNoEmptyReturnFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocNoPackageFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocParamsFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocScalarFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocSeparationFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocShortDescriptionFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocSingleLineVarSpacingFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocToCommentFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocTrimFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocTypeToVarFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocTypesFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PhpdocVarWithoutNameFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PreIncrementFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/PrintToEchoFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/RemoveLeadingSlashUseFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/RemoveLinesBetweenUsesFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/ReturnFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/SelfAccessorFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/ShortBoolCastFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/ShortScalarCastFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/SingleArrayNoTrailingCommaFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/SingleBlankLineBeforeNamespaceFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/SingleQuoteFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/SpacesAfterSemicolonFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/SpacesBeforeSemicolonFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/SpacesCastFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/StandardizeNotEqualFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/TernarySpacesFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/TrimArraySpacesFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/UnalignDoubleArrowFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/UnalignEqualsFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/UnaryOperatorsSpacesFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/UnneededControlParenthesesFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/UnusedUseFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Fixer/Symfony/WhitespacyLinesFixer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/FixerFileProcessedEvent.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/FixerInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/LintManager.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Resources/phar-stub.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/StdinFileInfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Test/IntegrationCase.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Test/IntegrationCaseFactory.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Tokenizer/AbstractTransformer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Tokenizer/Token.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Tokenizer/Tokens.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Tokenizer/Transformer/ArrayTypehint.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Tokenizer/Transformer/ClassConstant.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Tokenizer/Transformer/CurlyClose.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Tokenizer/Transformer/DollarCloseCurlyBraces.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Tokenizer/Transformer/DynamicPropBrace.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Tokenizer/Transformer/DynamicVarBrace.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Tokenizer/TransformerInterface.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Tokenizer/Transformers.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/ToolInfo.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/UniqueFileIterator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/Symfony/CS/Utils.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/benchmark.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/box.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vendor/fabpot/php-cs-fixer/php-cs-fixer" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/AdminNotification/Model/FeedFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/AdminNotification/Model/InboxFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Authorization/Model/Role/Interceptor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Backend/Block/Store/Switcher/Interceptor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Backend/Controller/Adminhtml/Dashboard/Index/Interceptor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Backend/Helper/Data/Proxy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Backend/Model/Auth/Interceptor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Backend/Model/Auth/Session/Interceptor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Backend/Model/Auth/Session/Proxy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Backend/Model/Menu/Builder/Interceptor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Backend/Model/Menu/Filter/IteratorFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Backend/Model/MenuFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Backend/Model/Session/Interceptor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Backend/Model/UrlFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Backend/Model/View/Result/Page/Interceptor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Bundle/Api/Data/BundleOptionInterfaceFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Api/Data/ProductOptionExtension.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Api/Data/ProductOptionExtensionFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Api/Data/ProductOptionExtensionInterface.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/CustomOptions/CustomOptionFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Catalog/Model/ProductOptionFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Cms/Model/BlockFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/ConfigurableProduct/Model/Quote/Item/ConfigurableItemOptionValueFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/CurrencySymbol/Model/System/CurrencysymbolFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/Address/Config/Proxy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Customer/Model/Address/Config/Reader/Proxy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Directory/Model/Currency/FilterFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Downloadable/Model/DownloadableOptionFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Acl/Builder/Proxy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/App/State/Proxy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Authorization/Interceptor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Data/Form/FormKey/Proxy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/HTTP/Adapter/CurlFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Stdlib/Cookie/PublicCookieMetadataFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Framework/Validator/DataObjectFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Indexer/Model/Indexer/CollectionFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Indexer/Model/Mview/View/State/Interceptor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Payment/Model/Config/Reader/Proxy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Reports/Model/ResourceModel/Order/CollectionFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Api/Data/CreditmemoSearchResultInterfaceFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Api/Data/InvoiceComment/Repository.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Api/Data/InvoiceCommentInterfaceFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Api/Data/InvoiceCommentInterfacePersistor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Api/Data/InvoiceCommentSearchResultInterfaceFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Api/Data/InvoiceSearchResultInterfaceFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Api/Data/OrderItemSearchResultInterfaceFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Api/Data/OrderSearchResultInterfaceFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Api/Data/ShipmentSearchResultInterfaceFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Model/Order/Creditmemo/ItemFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Model/Order/Email/SenderBuilderFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Model/Order/Invoice/ItemFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Model/Order/Shipment/ItemFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Model/Order/Status/HistoryFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Model/Order/StatusFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Model/OrderRepository/Interceptor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Model/ResourceModel/Order/Address/CollectionFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Model/ResourceModel/Order/Creditmemo/CollectionFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Model/ResourceModel/Order/Interceptor.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Model/ResourceModel/Order/Invoice/CollectionFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Model/ResourceModel/Order/Item/CollectionFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Model/ResourceModel/Order/Payment/CollectionFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Model/ResourceModel/Order/Shipment/CollectionFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Model/ResourceModel/Order/Shipment/Track/CollectionFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Model/ResourceModel/Order/Status/CollectionFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Model/ResourceModel/Order/Status/History/CollectionFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Model/ResourceModel/Report/Bestsellers/CollectionFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Sales/Model/ResourceModel/Report/OrderFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/SalesSequence/Model/MetaFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/SalesSequence/Model/ProfileFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/SalesSequence/Model/SequenceFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Search/Model/ResourceModel/Query/CollectionFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Security/Model/AdminSessionInfoFactory.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/generation/Magento/Security/Model/ResourceModel/AdminSessionInfo/CollectionFactory.php" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/magento-theme/layout/default.xml" afterPath="$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/Magento_Theme/layout/default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2" afterPath="$PROJECT_DIR$/Magento2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/Magento2/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/app/code/Smacnew/Category/Api/Data/CategoryInterface.php" afterPath="$PROJECT_DIR$/Magento2/app/code/Smacnew/Category/Api/Data/CategoryInterface.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/app/code/Smacnew/Category/Model/Category.php" afterPath="$PROJECT_DIR$/Magento2/app/code/Smacnew/Category/Model/Category.php" />
@@ -271,11 +150,8 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/tests/fDOMDocumentFragment.test.php" afterPath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/tests/fDOMDocumentFragment.test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/tests/fDOMElement.test.php" afterPath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/tests/fDOMElement.test.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/tests/fDOMXPath.test.php" afterPath="$PROJECT_DIR$/Magento2/vendor/theseer/fdomdocument/tests/fDOMXPath.test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/config.php" afterPath="$PROJECT_DIR$/app/etc/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/etc/env.php" afterPath="$PROJECT_DIR$/app/etc/env.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/magento" afterPath="$PROJECT_DIR$/bin/magento" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/code/Smacnew/Home/view/frontend/templates/home.phtml" afterPath="$PROJECT_DIR$/app/code/Smacnew/Home/view/frontend/templates/home.phtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/etc/view.xml" afterPath="$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/etc/view.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Authorization/Model/Acl/Role/GroupFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Authorization/Model/Acl/Role/GroupFactory.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Authorization/Model/Acl/Role/UserFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Authorization/Model/Acl/Role/UserFactory.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Authorization/Model/RoleFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Authorization/Model/RoleFactory.php" />
@@ -538,54 +414,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Weee/Model/Tax/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Weee/Model/Tax/Proxy.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Widget/Model/Config/Reader/Proxy.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Widget/Model/Config/Reader/Proxy.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/generation/Magento/Wishlist/Model/WishlistFactory.php" afterPath="$PROJECT_DIR$/var/generation/Magento/Wishlist/Model/WishlistFactory.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/installed.json" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/spdx-licenses/CHANGELOG.md" afterPath="$PROJECT_DIR$/vendor/composer/spdx-licenses/CHANGELOG.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/composer/spdx-licenses/res/spdx-licenses.json" afterPath="$PROJECT_DIR$/vendor/composer/spdx-licenses/res/spdx-licenses.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/config/Tests/Definition/Builder/ArrayNodeDefinitionTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/config/Tests/Definition/Builder/ArrayNodeDefinitionTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/config/Tests/Definition/Builder/TreeBuilderTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/config/Tests/Definition/Builder/TreeBuilderTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/config/Tests/Fixtures/Builder/BarNodeDefinition.php" afterPath="$PROJECT_DIR$/vendor/symfony/config/Tests/Fixtures/Builder/BarNodeDefinition.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Compiler/AutowirePass.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Compiler/AutowirePass.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/ContainerBuilder.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/ContainerBuilder.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Dumper/PhpDumper.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Dumper/PhpDumper.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Loader/YamlFileLoader.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Loader/YamlFileLoader.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/AutowirePassTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/AutowirePassTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/CheckCircularReferencesPassTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/CheckCircularReferencesPassTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/CheckDefinitionValidityPassTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/CheckDefinitionValidityPassTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/CheckExceptionOnInvalidReferenceBehaviorPassTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/CheckExceptionOnInvalidReferenceBehaviorPassTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/CheckReferenceValidityPassTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Compiler/CheckReferenceValidityPassTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Dumper/PhpDumperTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Dumper/PhpDumperTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Dumper/XmlDumperTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Dumper/XmlDumperTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Fixtures/php/services24.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Fixtures/php/services24.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Loader/YamlFileLoaderTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/dependency-injection/Tests/Loader/YamlFileLoaderTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcher.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/EventDispatcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/Debug/TraceableEventDispatcherTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/event-dispatcher/Tests/Debug/TraceableEventDispatcherTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/filesystem/Filesystem.php" afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/Filesystem.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/filesystem/Tests/FilesystemTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/filesystem/Tests/FilesystemTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/finder/Tests/FinderTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/finder/Tests/FinderTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Inline.php" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Inline.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Parser.php" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Parser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/DumperTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/DumperTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/ParserTest.php" afterPath="$PROJECT_DIR$/vendor/symfony/yaml/Tests/ParserTest.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/.gitignore" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/.travis.yml" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/README.md" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/XPathQuery.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/XPathQuery.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/XPathQueryException.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/XPathQueryException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/css/Translator.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/css/Translator.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/fDOMDocument.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/fDOMDocument.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/fDOMDocumentFragment.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/fDOMDocumentFragment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/fDOMElement.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/fDOMElement.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/fDOMException.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/fDOMException.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/fDOMNode.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/fDOMNode.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/fDOMXPath.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/src/fDOMXPath.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/tests/Translator.test.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/tests/Translator.test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/tests/XPathQuery.test.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/tests/XPathQuery.test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/tests/fDOMDocument.test.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/tests/fDOMDocument.test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/tests/fDOMDocumentFragment.test.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/tests/fDOMDocumentFragment.test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/tests/fDOMElement.test.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/tests/fDOMElement.test.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/theseer/fdomdocument/tests/fDOMXPath.test.php" afterPath="$PROJECT_DIR$/vendor/theseer/fdomdocument/tests/fDOMXPath.test.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -607,135 +435,116 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.phtml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="default.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/Magento_Theme/layout/default.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.phtml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Home/view/frontend/templates/home.phtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12545">
-              <caret line="56" column="56" lean-forward="false" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
+            <state relative-caret-position="350">
+              <caret line="896" column="26" lean-forward="false" selection-start-line="896" selection-start-column="26" selection-end-line="896" selection-end-column="26" />
               <folding>
-                <element signature="e#2818#2824#0#HTML" expanded="true" />
-                <element signature="e#2824#2830#0#HTML" expanded="true" />
-                <element signature="e#2881#2887#0#HTML" expanded="true" />
-                <element signature="e#2887#2893#0#HTML" expanded="true" />
-                <element signature="e#2893#2899#0#HTML" expanded="true" />
-                <element signature="e#3025#3031#0#HTML" expanded="true" />
-                <element signature="e#3031#3037#0#HTML" expanded="true" />
-                <element signature="e#3099#3105#0#HTML" expanded="true" />
-                <element signature="e#3105#3111#0#HTML" expanded="true" />
-                <element signature="e#3111#3117#0#HTML" expanded="true" />
-                <element signature="e#3235#3241#0#HTML" expanded="true" />
-                <element signature="e#3241#3247#0#HTML" expanded="true" />
+                <element signature="e#2786#2792#0#HTML" expanded="true" />
+                <element signature="e#2792#2798#0#HTML" expanded="true" />
+                <element signature="e#2849#2855#0#HTML" expanded="true" />
+                <element signature="e#2855#2861#0#HTML" expanded="true" />
+                <element signature="e#2861#2867#0#HTML" expanded="true" />
+                <element signature="e#2993#2999#0#HTML" expanded="true" />
+                <element signature="e#2999#3005#0#HTML" expanded="true" />
+                <element signature="e#3067#3073#0#HTML" expanded="true" />
+                <element signature="e#3073#3079#0#HTML" expanded="true" />
+                <element signature="e#3079#3085#0#HTML" expanded="true" />
+                <element signature="e#3203#3209#0#HTML" expanded="true" />
+                <element signature="e#3209#3215#0#HTML" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#4468#4474#0#HTML" expanded="true" />
-                <element signature="e#4474#4480#0#HTML" expanded="true" />
+                <element signature="e#4477#4483#0#HTML" expanded="true" />
+                <element signature="e#4483#4489#0#HTML" expanded="true" />
                 <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#1;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#8057#8063#0#HTML" expanded="true" />
-                <element signature="e#8063#8069#0#HTML" expanded="true" />
-                <element signature="e#11827#11833#0#HTML" expanded="true" />
-                <element signature="e#11833#11839#0#HTML" expanded="true" />
-                <element signature="e#14340#14346#0#HTML" expanded="true" />
-                <element signature="e#14346#14352#0#HTML" expanded="true" />
-                <element signature="e#16840#16846#0#HTML" expanded="true" />
-                <element signature="e#16846#16852#0#HTML" expanded="true" />
-                <element signature="e#26800#26806#0#HTML" expanded="true" />
-                <element signature="e#26806#26812#0#HTML" expanded="true" />
-                <element signature="e#32737#32743#0#HTML" expanded="true" />
-                <element signature="e#32743#32749#0#HTML" expanded="true" />
-                <element signature="e#42318#42324#0#HTML" expanded="true" />
-                <element signature="e#42324#42330#0#HTML" expanded="true" />
-                <element signature="e#43114#43120#0#HTML" expanded="true" />
-                <element signature="e#43120#43126#0#HTML" expanded="true" />
-                <element signature="e#44243#44249#0#HTML" expanded="true" />
-                <element signature="e#44249#44255#0#HTML" expanded="true" />
-                <element signature="e#44919#44925#0#HTML" expanded="true" />
-                <element signature="e#44925#44931#0#HTML" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#8230#8236#0#HTML" expanded="true" />
+                <element signature="e#8236#8242#0#HTML" expanded="true" />
+                <element signature="e#12205#12211#0#HTML" expanded="true" />
+                <element signature="e#12211#12217#0#HTML" expanded="true" />
+                <element signature="e#14841#14847#0#HTML" expanded="true" />
+                <element signature="e#14847#14853#0#HTML" expanded="true" />
+                <element signature="e#17464#17470#0#HTML" expanded="true" />
+                <element signature="e#17470#17476#0#HTML" expanded="true" />
+                <element signature="e#27711#27717#0#HTML" expanded="true" />
+                <element signature="e#27717#27723#0#HTML" expanded="true" />
+                <element signature="e#33812#33818#0#HTML" expanded="true" />
+                <element signature="e#33818#33824#0#HTML" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1493315429000" expanded="true" signature="40382:40513" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="40552:40683" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="40722:40853" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="40892:41023" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="41062:41193" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="41232:41363" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="41402:41533" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="41572:41703" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="41803:41819" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="41803:46925" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="41840:43715" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="41872:43704" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="41890:41918" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="41890:43689" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="41963:42189" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="42012:42166" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="42262:42483" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="42311:42460" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="42556:42780" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="42605:42757" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="42853:43081" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="42902:43058" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="43154:43378" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="43203:43355" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="43451:43670" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="43500:43647" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="43737:46664" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="43769:46653" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="43836:44560" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="43926:43932" ph=" " />
+                <marker date="1493315429000" expanded="true" signature="43932:43938" ph=" " />
+                <marker date="1493315429000" expanded="true" signature="44023:44541" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="44627:45690" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="44722:44728" ph=" " />
+                <marker date="1493315429000" expanded="true" signature="44728:44734" ph=" " />
+                <marker date="1493315429000" expanded="true" signature="44790:45671" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="44815:45648" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="44844:44943" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="44972:45083" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="45112:45218" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="45247:45359" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="45388:45500" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="45529:45622" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="45757:46638" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="45851:45857" ph=" " />
+                <marker date="1493315429000" expanded="true" signature="45857:45863" ph=" " />
+                <marker date="1493315429000" expanded="true" signature="45922:46619" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="45966:46129" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="46173:46343" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="46387:46596" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="46527:46533" ph=" " />
+                <marker date="1493315429000" expanded="true" signature="46533:46539" ph=" " />
+                <marker date="1493315429000" expanded="true" signature="46686:46925" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="46718:46925" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="46776:46925" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="46843:46859" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="46860:46925" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="47397:47413" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="47414:47533" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="47591:47983" ph="..." />
+                <marker date="1493315429000" expanded="true" signature="47994:48002" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="view.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/etc/view.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="172" column="29" lean-forward="true" selection-start-line="172" selection-start-column="29" selection-end-line="172" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/magento-theme/layout/default.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/magento/module-theme/view/frontend/layout/default.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="38" column="101" lean-forward="false" selection-start-line="38" selection-start-column="86" selection-end-line="38" selection-end-column="101" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layouts.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/magento/module-theme/view/frontend/layouts.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requirejs-config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/magento/module-theme/view/frontend/requirejs-config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="algolia.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/web/plugins/awesome-4.7.0/src/assets/less/site/algolia.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="32" lean-forward="false" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fusion-ad.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/web/plugins/awesome-4.7.0/src/assets/less/site/fusion-ad.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="site.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/web/plugins/awesome-4.7.0/src/assets/less/site.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -752,10 +561,27 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Inchoo\Helloworld</find>
+      <find>l</find>
+      <find>logo</find>
+      <find>logo.</find>
+      <find>module</find>
+      <find>images/prods/img-prod-1.png&lt;?php echo $block-&gt;getViewFileUrl('images/demo.jpg'); ?&gt;</find>
+      <find>img-prod</find>
+      <find>img-prod-1.png</find>
+      <find>images/prods/img-prod-1.png</find>
+      <find>&lt;div class=&quot;image&quot;&gt;</find>
+      <find>images/logo.png</find>
+      <find>&lt;div class=&quot;logo-img&quot;&gt;</find>
+      <find>prod-0</find>
+      <find>img src=&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>Smacnew\Home</replace>
+      <replace>&lt;img src=&quot;&lt;?php echo $block-&gt;getViewFileUrl('images/prods/img-prod-1.png'); ?&gt;&quot; /&gt;</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/app/design</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -780,10 +606,12 @@
         <option value="$PROJECT_DIR$/app/code/Smacnew/Home/view/frontend/templates/home_index_index.xml" />
         <option value="$PROJECT_DIR$/app/code/Smacnew/Home/view/frontend/layout/home_index_index.xml" />
         <option value="$PROJECT_DIR$/app/code/Smacnew/Home/Block/Home.php" />
-        <option value="$PROJECT_DIR$/app/code/Smacnew/Home/view/frontend/templates/home.phtml" />
         <option value="$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/theme.xml" />
         <option value="$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/web/plugins/awesome-4.7.0/src/assets/less/site.less" />
         <option value="$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/etc/view.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/magento-theme/layout/default.xml" />
+        <option value="$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/Magento_Theme/layout/default.xml" />
+        <option value="$PROJECT_DIR$/app/code/Smacnew/Home/view/frontend/templates/home.phtml" />
       </list>
     </option>
   </component>
@@ -839,7 +667,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="pub" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -853,33 +681,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="pub" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Magento2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Magento2" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module-theme" />
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -893,75 +699,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
+              <option name="myItemId" value="pub" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module-theme" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Magento2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Magento2" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module-theme" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Magento2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Magento2" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="magento" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="module-theme" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="view" />
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -969,7 +711,395 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="layout" />
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tgkd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en_US" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pub" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tgkd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en_US" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pub" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tgkd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en_US" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pub" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tgkd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en_US" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pub" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tgkd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en_US" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pub" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tgkd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en_US" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prods" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pub" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tgkd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en_US" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles-m.less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pub" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tgkd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en_US" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles-l.less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pub" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tgkd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en_US" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pub" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tgkd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="en_US" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="source" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pub" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -1079,7 +1209,477 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="magento-theme" />
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="owlcarousel-2.2.1" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tgkd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap-3.3.7" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tgkd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap-3.3.7" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tgkd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap-3.3.7" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fonts" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tgkd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap-3.3.7" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap-theme.css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tgkd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bootstrap-3.3.7" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tgkd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="plugins" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tgkd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tgkd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery.js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tgkd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tgkd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento2" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="design" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frontend" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Smacnew" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tgkd" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Magento_Theme" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -1384,24 +1984,26 @@
       <workItem from="1492821918237" duration="1058000" />
       <workItem from="1492824253811" duration="5194000" />
       <workItem from="1492858753716" duration="282000" />
-      <workItem from="1493173990221" duration="6677000" />
+      <workItem from="1493173990221" duration="12527000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15425000" />
+    <option name="totallyTimeSpent" value="21275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23891273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.49713877" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1409,7 +2011,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1432,42 +2033,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Category/Api/Data/CategoryInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Category/registration.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Category/etc/module.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Category/Model/Category/Collection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Category/Model/ResourceModel/Category.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Category/Api/Data/CategoryInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1713,73 +2278,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Home/view/frontend/templates/home.phtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12545">
-          <caret line="56" column="56" lean-forward="false" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
-          <folding>
-            <element signature="e#2818#2824#0#HTML" expanded="true" />
-            <element signature="e#2824#2830#0#HTML" expanded="true" />
-            <element signature="e#2881#2887#0#HTML" expanded="true" />
-            <element signature="e#2887#2893#0#HTML" expanded="true" />
-            <element signature="e#2893#2899#0#HTML" expanded="true" />
-            <element signature="e#3025#3031#0#HTML" expanded="true" />
-            <element signature="e#3031#3037#0#HTML" expanded="true" />
-            <element signature="e#3099#3105#0#HTML" expanded="true" />
-            <element signature="e#3105#3111#0#HTML" expanded="true" />
-            <element signature="e#3111#3117#0#HTML" expanded="true" />
-            <element signature="e#3235#3241#0#HTML" expanded="true" />
-            <element signature="e#3241#3247#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#4468#4474#0#HTML" expanded="true" />
-            <element signature="e#4474#4480#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#8057#8063#0#HTML" expanded="true" />
-            <element signature="e#8063#8069#0#HTML" expanded="true" />
-            <element signature="e#11827#11833#0#HTML" expanded="true" />
-            <element signature="e#11833#11839#0#HTML" expanded="true" />
-            <element signature="e#14340#14346#0#HTML" expanded="true" />
-            <element signature="e#14346#14352#0#HTML" expanded="true" />
-            <element signature="e#16840#16846#0#HTML" expanded="true" />
-            <element signature="e#16846#16852#0#HTML" expanded="true" />
-            <element signature="e#26800#26806#0#HTML" expanded="true" />
-            <element signature="e#26806#26812#0#HTML" expanded="true" />
-            <element signature="e#32737#32743#0#HTML" expanded="true" />
-            <element signature="e#32743#32749#0#HTML" expanded="true" />
-            <element signature="e#42318#42324#0#HTML" expanded="true" />
-            <element signature="e#42324#42330#0#HTML" expanded="true" />
-            <element signature="e#43114#43120#0#HTML" expanded="true" />
-            <element signature="e#43120#43126#0#HTML" expanded="true" />
-            <element signature="e#44243#44249#0#HTML" expanded="true" />
-            <element signature="e#44249#44255#0#HTML" expanded="true" />
-            <element signature="e#44919#44925#0#HTML" expanded="true" />
-            <element signature="e#44925#44931#0#HTML" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#2;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#2;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/theme.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/magento-theme/layout/default.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="7" lean-forward="false" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/magento/module-theme/view/frontend/layout/default.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
@@ -1791,15 +2289,7 @@
     <entry file="file://$PROJECT_DIR$/vendor/magento/module-theme/view/frontend/layouts.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/magento/module-theme/view/frontend/requirejs-config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="34" column="6" lean-forward="true" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1823,7 +2313,7 @@
     <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/web/plugins/awesome-4.7.0/src/assets/less/site/fusion-ad.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1836,11 +2326,180 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/web/plugins/bootstrap-3.3.7/css/bootstrap.css.map">
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/web/plugins/bootstrap-3.3.7/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/etc/view.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="172" column="29" lean-forward="true" selection-start-line="172" selection-start-column="29" selection-end-line="172" selection-end-column="29" />
+        <state relative-caret-position="91">
+          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/theme.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/web/plugins/bootstrap-3.3.7/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4978">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/magento/module-theme/view/frontend/requirejs-config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="6" lean-forward="false" selection-start-line="34" selection-start-column="6" selection-end-line="34" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/static/frontend/Smacnew/tgkd/en_US/css/_styles.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pub/static/frontend/Smacnew/tgkd/en_US/css/source/_theme.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/design/frontend/Smacnew/tgkd/Magento_Theme/layout/default.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="61" lean-forward="false" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/code/Smacnew/Home/view/frontend/templates/home.phtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="896" column="26" lean-forward="false" selection-start-line="896" selection-start-column="26" selection-end-line="896" selection-end-column="26" />
+          <folding>
+            <element signature="e#2786#2792#0#HTML" expanded="true" />
+            <element signature="e#2792#2798#0#HTML" expanded="true" />
+            <element signature="e#2849#2855#0#HTML" expanded="true" />
+            <element signature="e#2855#2861#0#HTML" expanded="true" />
+            <element signature="e#2861#2867#0#HTML" expanded="true" />
+            <element signature="e#2993#2999#0#HTML" expanded="true" />
+            <element signature="e#2999#3005#0#HTML" expanded="true" />
+            <element signature="e#3067#3073#0#HTML" expanded="true" />
+            <element signature="e#3073#3079#0#HTML" expanded="true" />
+            <element signature="e#3079#3085#0#HTML" expanded="true" />
+            <element signature="e#3203#3209#0#HTML" expanded="true" />
+            <element signature="e#3209#3215#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#a#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#4477#4483#0#HTML" expanded="true" />
+            <element signature="e#4483#4489#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#ul#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#li#0;n#ul#0;n#nav#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#8230#8236#0#HTML" expanded="true" />
+            <element signature="e#8236#8242#0#HTML" expanded="true" />
+            <element signature="e#12205#12211#0#HTML" expanded="true" />
+            <element signature="e#12211#12217#0#HTML" expanded="true" />
+            <element signature="e#14841#14847#0#HTML" expanded="true" />
+            <element signature="e#14847#14853#0#HTML" expanded="true" />
+            <element signature="e#17464#17470#0#HTML" expanded="true" />
+            <element signature="e#17470#17476#0#HTML" expanded="true" />
+            <element signature="e#27711#27717#0#HTML" expanded="true" />
+            <element signature="e#27717#27723#0#HTML" expanded="true" />
+            <element signature="e#33812#33818#0#HTML" expanded="true" />
+            <element signature="e#33818#33824#0#HTML" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1493315429000" expanded="true" signature="40382:40513" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="40552:40683" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="40722:40853" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="40892:41023" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="41062:41193" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="41232:41363" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="41402:41533" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="41572:41703" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="41803:41819" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="41803:46925" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="41840:43715" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="41872:43704" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="41890:41918" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="41890:43689" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="41963:42189" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="42012:42166" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="42262:42483" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="42311:42460" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="42556:42780" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="42605:42757" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="42853:43081" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="42902:43058" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="43154:43378" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="43203:43355" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="43451:43670" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="43500:43647" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="43737:46664" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="43769:46653" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="43836:44560" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="43926:43932" ph=" " />
+            <marker date="1493315429000" expanded="true" signature="43932:43938" ph=" " />
+            <marker date="1493315429000" expanded="true" signature="44023:44541" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="44627:45690" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="44722:44728" ph=" " />
+            <marker date="1493315429000" expanded="true" signature="44728:44734" ph=" " />
+            <marker date="1493315429000" expanded="true" signature="44790:45671" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="44815:45648" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="44844:44943" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="44972:45083" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="45112:45218" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="45247:45359" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="45388:45500" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="45529:45622" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="45757:46638" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="45851:45857" ph=" " />
+            <marker date="1493315429000" expanded="true" signature="45857:45863" ph=" " />
+            <marker date="1493315429000" expanded="true" signature="45922:46619" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="45966:46129" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="46173:46343" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="46387:46596" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="46527:46533" ph=" " />
+            <marker date="1493315429000" expanded="true" signature="46533:46539" ph=" " />
+            <marker date="1493315429000" expanded="true" signature="46686:46925" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="46718:46925" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="46776:46925" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="46843:46859" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="46860:46925" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="47397:47413" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="47414:47533" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="47591:47983" ph="..." />
+            <marker date="1493315429000" expanded="true" signature="47994:48002" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

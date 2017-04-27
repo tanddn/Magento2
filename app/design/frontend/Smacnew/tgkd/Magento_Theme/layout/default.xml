@@ -1,0 +1,43 @@
+<!--
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <!-- Remove blank/luma theme styling if you declared a parent -->
+        <remove src="css/styles-m.css" />
+        <remove src="css/styles-l.css" />
+        <remove src="css/print.css" />
+
+        <!-- Add your own CSS files -->
+        <css src="css/navbar-menu.css" />
+        <css src="css/overwrite-css.css" />
+        <css src="css/rLdJAK.css" />
+        <css src="css/sm-core-css.css" />
+        <css src="css/style-sheet.css" />
+        <!--<css src="plugins/bootstrap-3.3.7/css/bootstrap.css" />-->
+        <css src="plugins/bootstrap-3.3.7/css/bootstrap.min.css" />
+        <css src="plugins/bootstrap-3.3.7/css/bootstrap-theme.min.css" />
+        <css src="css/style-sheet.css" />
+
+
+        <script src="js/scripts.js"/>
+        <script src="js/jquery.js"/>
+        <script src="js/jquery.min.js"/>
+        <script src="js/jquery.smartmenus.js"/>
+        <script src="plugins/owlcarousel-2.2.1/owl.carousel.js"/>
+        <!--<script src="plugins/bootstrap-3.3.7/js/bootstrap.js" />-->
+        <script src="plugins/bootstrap-3.3.7/js/bootstrap.min.js" />
+
+    </head>
+    <body>
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_file" xsi:type="string">images/logo.png</argument>
+            </arguments>
+        </referenceBlock>
+        <remove name="report.bugs"/>
+    </body>
+</page>
