@@ -33,11 +33,37 @@
 
     </head>
     <body>
+
+        <referenceContainer name="page.top" remove="true"/>
+            <!--<remove name="navigation.sections" />
+            <remove name="breadcrumbs" />
+        </referenceContainer>-->
+
         <referenceBlock name="logo">
             <arguments>
                 <argument name="logo_file" xsi:type="string">images/logo.png</argument>
             </arguments>
         </referenceBlock>
-        <remove name="report.bugs"/>
+
+        <referenceContainer name="header.container">
+            <referenceContainer name="header.panel.wrapper" remove="true"/>
+            <referenceContainer name="header-wrapper" remove="true"/>
+            <container name="new-header">
+                <block class="Magento\Theme\Block\Html\Header" name="tgkd-header" template="html/header.phtml" cacheable="false" />
+                <block class="Magento\Theme\Block\Html\Topmenu" name="tgkd-topmenu" template="html/nav.phtml"/>
+            </container>
+            <remove name="top.links"/>
+        </referenceContainer>p
+
+        <referenceContainer name="footer-container">
+            <container name="footer" as="footer" label="Page Footer" htmlTag="div" htmlClass="footer content">
+                <remove name="report.bugs"/>
+                <remove name="store_switcher"/>
+                <remove name="footer_links"/>
+                <remove name="copyright"/>
+
+                <block class="Magento\Theme\Block\Html\Footer" name="absolute_footer" template="html/footer.phtml" />
+            </container>
+        </referenceContainer>
     </body>
 </page>

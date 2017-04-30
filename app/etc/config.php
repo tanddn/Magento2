@@ -126,5 +126,6 @@ return array (
     'Magento_WishlistSampleData' => 1,
     'Smacnew_Category' => 1,
     'Smacnew_Home' => 1,
+    'Smacnew_Product' => 1,
   ),
 );
