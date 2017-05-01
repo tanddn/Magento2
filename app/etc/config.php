@@ -127,5 +127,6 @@ return array (
     'Smacnew_Category' => 1,
     'Smacnew_Home' => 1,
     'Smacnew_Product' => 1,
+    'Smacnew_User' => 1,
   ),
 );

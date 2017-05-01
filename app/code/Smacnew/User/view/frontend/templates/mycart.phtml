@@ -1,0 +1,139 @@
+<div class="top-after">
+    <div class="row">
+        <div class="container">
+            <div class="col-xs-12 gio-hang padding-left-right-15-mobile">
+                <div class="col-xs-12 gio-hang-title">
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>&nbsp;&nbsp;GIỎ HÀNG CỦA BẠN
+                </div>
+                <div class="col-xs-12 gio-hang-list">
+                    <div class="col-xs-12 gio-hang-header">
+                        <div class="col-sm-6 col-xs-4 text-left">
+                            SẢN PHẨM
+                        </div>
+                        <div class="col-sm-2 col-xs-12">
+                            ĐƠN GIÁ
+                        </div>
+                        <div class="col-sm-2 col-xs-12">
+                            SỐ LƯỢNG
+                        </div>
+                        <div class="col-sm-2 col-xs-12 thanh-tien">
+                            THÀNH TIỀN
+                        </div>
+                    </div>
+                    
+                    <?php for($i = 0; $i < 2; $i++) {?>
+                        <div class="col-xs-12 gio-hang-item">
+                            <div class="col-sm-2 col-xs-3 thumb">
+                                <img src="<?php echo $block->getViewFileUrl('images/prods/img-prod-' . ($i % 3) . '.png') ?>" />
+                            </div>
+                            <div class="col-sm-4 col-xs-9">
+                                <div class="col-xs-12 title">
+                                    Bộ Chăm Sóc Cơ Thể Karmarts + Qùa tặng: Gel Tẩy Tế Bào Chết Sữa Chua Dâu Cathy Doll So Happy Berry Yogurt Peeling Gel (60ml) & Xà Phòng Thảo Dược Dứa & AHA Cathy Doll Reunrom Herbal Soap Pineapple & AHA (55g)
+                                </div>
+                                <div class="col-xs-12 title">
+                                    <button type="button" class="btn btn-default btn-xs margin-top-5"><i class="fa fa-trash" aria-hidden="true"></i>&nbsp;Xóa khỏi giỏ hàng</button>
+                                </div>
+                            </div>
+                            <div class="col-sm-2 col-xs-4 don-gia">
+                                <span class="mobile-mode">ĐƠN GIÁ</span><br />
+                                90.000 đ
+                            </div>
+                            <div class="col-sm-2 col-xs-4 so-luong">
+                                <span class="mobile-mode">SỐ LƯỢNG</span><br />
+                                <select class="">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-2 col-xs-4 thanh-tien">
+                                <span class="mobile-mode">THÀNH TIỀN</span><br />
+                                90.000 đ
+                            </div>
+                        </div>
+                    <?php } ?>
+                    
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <div class="col-xs-12 gio-hang-infor ">
+                        <div class="col-sm-4 col-xs-6">
+                            Loại sản phẩm:
+                        </div>
+                        <div class="col-sm-4 col-xs-6" style="font-size: 14px;">
+                            2
+                        </div>
+                    </div>
+                    <div class="col-xs-12 gio-hang-infor ">
+                        <div class="col-sm-4 col-xs-6">
+                            Tổng giá trị:
+                        </div>
+                        <div class="col-sm-4 col-xs-6 tong-gia-tri">
+                            180.000 đ
+                        </div>
+                    </div>
+                    <div class="col-xs-12 gio-hang-infor ">
+                        <div class="col-sm-4 col-xs-6">
+                            Tổng giá trị đơn hàng:
+                        </div>
+                        <div class="col-sm-4 col-xs-6 tong-don-hang">
+                            180.000 đ
+                        </div>
+                    </div>
+                    <div class="col-xs-12 gio-hang-infor">
+                        <div class="col-sm-4 col-xs-12">
+                            <a href="home" class="btn btn-default btn-xs btn-block margin-top-10"><i class="fa fa-arrow-left" aria-hidden="true"></i>&nbsp;&nbsp;Tiếp tục mua hàng</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-xs-12">
+                    <div class="col-sm-6 col-xs-12 pull-right mobile margin-top-5">
+                        <a href="/user/MyCart/CustomerInfo" class="btn btn-danger btn-lg btn-block">ĐẶT HÀNG&nbsp;&nbsp;<i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container">
+            <div class="col-xs-12 prod-group-items">
+                <div class="col-xs-12 prod-group-title">
+                    <div class="prod-group-name pull-left">
+                        SẢN PHẨM NỔI BẬT
+                    </div>
+                    <!--<div class="prod-group-more pull-right">
+                        XEM TẤT CẢ &nbsp;&nbsp;<i class="fa fa-caret-right" aria-hidden="true"></i>
+                    </div>-->
+                </div>
+                <div class="col-xs-12 prod-group-list">
+
+                    <?php for($i = 0; $i < 4; $i++){ ?>
+                        <div class="col-sm-3 col-xs-12 prod-item">
+                            <div class="col-xs-12 prod-border">
+                                <div class="promotion">
+                                    -50%
+                                </div>
+                                <div class="text-center btn-group">
+                                    <a href="/user/MyCart" class="btn btn-success btn-muangay">Mua ngay</a>
+                                    <button type="button" class="btn btn-danger btn-muangay">Giỏ hàng</button>
+                                </div>
+                                <div class="image">
+                                    <img src="<?php echo $block->getViewFileUrl('images/prods/img-prod-' . ($i % 3) . '.png') ?>" />
+                                </div>
+                                <div class="desc">
+                                    Bộ 2 thực phẩm bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da
+                                </div>
+                                <div class="col-xs-12 price">
+                                    <div class="old-price pull-left">120.000 đ</div>
+                                    <div class="new-price pull-right">90.000 đ</div>
+                                </div>
+                            </div>
+                        </div>
+                    <?php } ?>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
