@@ -149,98 +149,33 @@
                 </a>
             </div>
             <div class="col-xs-12 prod-group-list">
-                <div class="col-sm-3 col-xs-12 prod-item">
-                    <div class="col-xs-12 prod-border">
-                        <div class="promotion">
-                            -50%
+
+                <?php for($i = 0; $i < 4; $i++) {?>
+                    <div class="col-sm-3 col-xs-12 prod-item">
+                        <div class="col-xs-12 prod-border">
+                            <div class="promotion">
+                                -50%
+                            </div>
+                            <div class="text-center btn-group">
+                                <a href="gio-hang.html" class="btn btn-success btn-muangay">Mua ngay</a>
+                                <button type="button" class="btn btn-danger btn-muangay">Giỏ hàng</button>
+                            </div>
+                            <a href="product">
+                                <div class="image">
+                                    <img src="<?php echo $block->getViewFileUrl('images/prods/img-prod-'. ($i % 3) .'.png'); ?>" />
+                                </div>
+                                <div class="desc">
+                                    Bộ 2 thực phẩm bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da
+                                </div>
+                                <div class="col-xs-12 price">
+                                    <div class="old-price pull-left">120.000 đ</div>
+                                    <div class="new-price pull-right">90.000 đ</div>
+                                </div>
+                            </a>
                         </div>
-                        <div class="text-center btn-group">
-                            <a href="gio-hang.html" class="btn btn-success btn-muangay">Mua ngay</a>
-                            <button type="button" class="btn btn-danger btn-muangay">Giỏ hàng</button>
-                        </div>
-                        <a href="chi-tiet-san-pham.html">
-                            <div class="image">
-                                <img src="<?php echo $block->getViewFileUrl('images/prods/img-prod-1.png'); ?>" />
-                            </div>
-                            <div class="desc">
-                                Bộ 2 thực phẩm bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da
-                            </div>
-                            <div class="col-xs-12 price">
-                                <div class="old-price pull-left">120.000 đ</div>
-                                <div class="new-price pull-right">90.000 đ</div>
-                            </div>
-                        </a>
                     </div>
-                </div>
-                <div class="col-sm-3 col-xs-12 prod-item">
-                    <div class="col-xs-12 prod-border">
-                        <div class="promotion">
-                            -50%
-                        </div>
-                        <div class="text-center btn-group">
-                            <a href="gio-hang.html" class="btn btn-success btn-muangay">Mua ngay</a>
-                            <button type="button" class="btn btn-danger btn-muangay">Giỏ hàng</button>
-                        </div>
-                        <a href="chi-tiet-san-pham.html">
-                            <div class="image">
-                                <img src="<?php echo $block->getViewFileUrl('images/prods/img-prod-1.png'); ?>" />
-                            </div>
-                            <div class="desc">
-                                Bộ 2 thực phẩm bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da
-                            </div>
-                            <div class="col-xs-12 price">
-                                <div class="old-price pull-left">120.000 đ</div>
-                                <div class="new-price pull-right">90.000 đ</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-12 prod-item">
-                    <div class="col-xs-12 prod-border">
-                        <div class="promotion">
-                            -50%
-                        </div>
-                        <div class="text-center btn-group">
-                            <a href="gio-hang.html" class="btn btn-success btn-muangay">Mua ngay</a>
-                            <button type="button" class="btn btn-danger btn-muangay">Giỏ hàng</button>
-                        </div>
-                        <a href="chi-tiet-san-pham.html">
-                            <div class="image">
-                                <img src="<?php echo $block->getViewFileUrl('images/prods/img-prod-0.png'); ?>" />
-                            </div>
-                            <div class="desc">
-                                Bộ 2 thực phẩm bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da
-                            </div>
-                            <div class="col-xs-12 price">
-                                <div class="old-price pull-left">120.000 đ</div>
-                                <div class="new-price pull-right">90.000 đ</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-12 prod-item">
-                    <div class="col-xs-12 prod-border">
-                        <div class="promotion">
-                            -50%
-                        </div>
-                        <div class="text-center btn-group">
-                            <a href="gio-hang.html" class="btn btn-success btn-muangay">Mua ngay</a>
-                            <button type="button" class="btn btn-danger btn-muangay">Giỏ hàng</button>
-                        </div>
-                        <a href="chi-tiet-san-pham.html">
-                            <div class="image">
-                                <img src="<?php echo $block->getViewFileUrl('images/prods/img-prod-0.png'); ?>" />
-                            </div>
-                            <div class="desc">
-                                Bộ 2 thực phẩm bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da
-                            </div>
-                            <div class="col-xs-12 price">
-                                <div class="old-price pull-left">120.000 đ</div>
-                                <div class="new-price pull-right">90.000 đ</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                <?php }?>
+
             </div>
         </div>
     </div>
@@ -257,98 +192,33 @@
                 </a>
             </div>
             <div class="col-xs-12 prod-group-list">
-                <div class="col-sm-3 col-xs-12 prod-item">
-                    <div class="col-xs-12 prod-border">
-                        <div class="promotion">
-                            -50%
+
+                <?php for($i = 0; $i < 4; $i++) {?>
+                    <div class="col-sm-3 col-xs-12 prod-item">
+                        <div class="col-xs-12 prod-border">
+                            <div class="promotion">
+                                -50%
+                            </div>
+                            <div class="text-center btn-group">
+                                <a href="gio-hang.html" class="btn btn-success btn-muangay">Mua ngay</a>
+                                <button type="button" class="btn btn-danger btn-muangay">Giỏ hàng</button>
+                            </div>
+                            <a href="product">
+                                <div class="image">
+                                    <img src="<?php echo $block->getViewFileUrl('images/prods/img-prod-'. ($i % 3) .'.png'); ?>" />
+                                </div>
+                                <div class="desc">
+                                    Bộ 2 thực phẩm bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da
+                                </div>
+                                <div class="col-xs-12 price">
+                                    <div class="old-price pull-left">120.000 đ</div>
+                                    <div class="new-price pull-right">90.000 đ</div>
+                                </div>
+                            </a>
                         </div>
-                        <div class="text-center btn-group">
-                            <a href="gio-hang.html" class="btn btn-success btn-muangay">Mua ngay</a>
-                            <button type="button" class="btn btn-danger btn-muangay">Giỏ hàng</button>
-                        </div>
-                        <a href="chi-tiet-san-pham.html">
-                            <div class="image">
-                                <img src="<?php echo $block->getViewFileUrl('images/prods/img-prod-0.png'); ?>" />
-                            </div>
-                            <div class="desc">
-                                Bộ 2 thực phẩm bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da
-                            </div>
-                            <div class="col-xs-12 price">
-                                <div class="old-price pull-left">120.000 đ</div>
-                                <div class="new-price pull-right">90.000 đ</div>
-                            </div>
-                        </a>
                     </div>
-                </div>
-                <div class="col-sm-3 col-xs-12 prod-item">
-                    <div class="col-xs-12 prod-border">
-                        <div class="promotion">
-                            -50%
-                        </div>
-                        <div class="text-center btn-group">
-                            <a href="gio-hang.html" class="btn btn-success btn-muangay">Mua ngay</a>
-                            <button type="button" class="btn btn-danger btn-muangay">Giỏ hàng</button>
-                        </div>
-                        <a href="chi-tiet-san-pham.html">
-                            <div class="image">
-                                <img src="<?php echo $block->getViewFileUrl('images/prods/img-prod-0.png'); ?>" />
-                            </div>
-                            <div class="desc">
-                                Bộ 2 thực phẩm bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da
-                            </div>
-                            <div class="col-xs-12 price">
-                                <div class="old-price pull-left">120.000 đ</div>
-                                <div class="new-price pull-right">90.000 đ</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-12 prod-item">
-                    <div class="col-xs-12 prod-border">
-                        <div class="promotion">
-                            -50%
-                        </div>
-                        <div class="text-center btn-group">
-                            <a href="gio-hang.html" class="btn btn-success btn-muangay">Mua ngay</a>
-                            <button type="button" class="btn btn-danger btn-muangay">Giỏ hàng</button>
-                        </div>
-                        <a href="chi-tiet-san-pham.html">
-                            <div class="image">
-                                <img src="<?php echo $block->getViewFileUrl('images/prods/img-prod-0.png'); ?>" />
-                            </div>
-                            <div class="desc">
-                                Bộ 2 thực phẩm bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da
-                            </div>
-                            <div class="col-xs-12 price">
-                                <div class="old-price pull-left">120.000 đ</div>
-                                <div class="new-price pull-right">90.000 đ</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-sm-3 col-xs-12 prod-item">
-                    <div class="col-xs-12 prod-border">
-                        <div class="promotion">
-                            -50%
-                        </div>
-                        <div class="text-center btn-group">
-                            <a href="gio-hang.html" class="btn btn-success btn-muangay">Mua ngay</a>
-                            <button type="button" class="btn btn-danger btn-muangay">Giỏ hàng</button>
-                        </div>
-                        <a href="chi-tiet-san-pham.html">
-                            <div class="image">
-                                <img src="<?php echo $block->getViewFileUrl('images/prods/img-prod-0.png'); ?>" />
-                            </div>
-                            <div class="desc">
-                                Bộ 2 thực phẩm bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da
-                            </div>
-                            <div class="col-xs-12 price">
-                                <div class="old-price pull-left">120.000 đ</div>
-                                <div class="new-price pull-right">90.000 đ</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
+                <?php }?>
+
             </div>
         </div>
     </div>
@@ -370,33 +240,13 @@
             </div>
             <div class="col-xs-12 prod-group-list">
                 <div class="owl-carousel owl-theme">
-                    <div class="item">
-                        <img src="<?php echo $block->getViewFileUrl('images/default-image.jpg'); ?>" />
-                    </div>
-                    <div class="item">
-                        <img src="<?php echo $block->getViewFileUrl('images/default-image.jpg'); ?>" />
-                    </div>
-                    <div class="item">
-                        <img src="<?php echo $block->getViewFileUrl('images/default-image.jpg'); ?>" />
-                    </div>
-                    <div class="item">
-                        <img src="<?php echo $block->getViewFileUrl('images/default-image.jpg'); ?>" />
-                    </div>
-                    <div class="item">
-                        <img src="<?php echo $block->getViewFileUrl('images/default-image.jpg'); ?>" />
-                    </div>
-                    <div class="item">
-                        <img src="<?php echo $block->getViewFileUrl('images/default-image.jpg'); ?>" />
-                    </div>
-                    <div class="item">
-                        <img src="<?php echo $block->getViewFileUrl('images/default-image.jpg'); ?>" />
-                    </div>
-                    <div class="item">
-                        <img src="<?php echo $block->getViewFileUrl('images/default-image.jpg'); ?>" />
-                    </div>
-                    <div class="item">
-                        <img src="<?php echo $block->getViewFileUrl('images/default-image.jpg'); ?>" />
-                    </div>
+
+                    <?php for($i = 0; $i < 9; $i++) {?>
+                        <div class="item">
+                            <img src="<?php echo $block->getViewFileUrl('images/default-image.jpg'); ?>" />
+                        </div>
+                    <?php }?>
+
                 </div>
             </div>
         </div>

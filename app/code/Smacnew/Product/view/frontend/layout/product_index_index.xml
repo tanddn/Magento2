@@ -1,7 +1,8 @@
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd" layout="1column">
     <body>
         <referenceContainer name="content">
-            <block class="Smacnew\Product\Block\Product" name="product" template="product.phtml" />
+            <block class="Smacnew\Product\Block\ProductDetail" name="productdetail" template="product_detail.phtml" />
+            <block class="Smacnew\Product\Block\RelatedProducts" name="relatedproducts" template="related_products.phtml" />
         </referenceContainer>
     </body>
 </page>

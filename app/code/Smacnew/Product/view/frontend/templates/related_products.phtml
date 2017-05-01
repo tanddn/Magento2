@@ -1,0 +1,82 @@
+<div class="row">
+    <div class="container">
+        <div class="col-xs-12 prod-group-items">
+            <div class="col-xs-12 prod-group-title">
+                <div class="prod-group-name pull-left">
+                    SẢN PHẨM CÙNG THƯƠNG HIỆU
+                </div>
+                <div class="prod-group-more pull-right">
+                    XEM TẤT CẢ &nbsp;&nbsp;<i class="fa fa-caret-right" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="col-xs-12 prod-group-list">
+
+
+                <?php for($i = 0; $i < 4; $i++){ ?>
+                    <div class="col-sm-3 col-xs-12 prod-item">
+                        <div class="col-xs-12 prod-border">
+                            <div class="promotion">
+                                -50%
+                            </div>
+                            <div class="text-center btn-group">
+                                <a href="gio-hang.html" class="btn btn-success btn-muangay">Mua ngay</a>
+                                <button type="button" class="btn btn-danger btn-muangay">Giỏ hàng</button>
+                            </div>
+                            <div class="image">
+                                <img src="<?php echo $block->getViewFileUrl('images/prods/img-prod-'. ($i % 3) .'.png'); ?>" />
+                            </div>
+                            <div class="desc">
+                                Bộ 2 thực phẩm bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da
+                            </div>
+                            <div class="col-xs-12 price">
+                                <div class="old-price pull-left">120.000 đ</div>
+                                <div class="new-price pull-right">90.000 đ</div>
+                            </div>
+                        </div>
+                    </div>
+                <?php } ?>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-xs-12 prod-group-items">
+            <div class="col-xs-12 prod-group-title">
+                <div class="prod-group-name pull-left">
+                    SẢN PHẨM LIÊN QUAN
+                </div>
+                <!--<div class="prod-group-more pull-right">
+                    XEM TẤT CẢ &nbsp;&nbsp;<i class="fa fa-caret-right" aria-hidden="true"></i>
+                </div>-->
+            </div>
+            <div class="col-xs-12 prod-group-list">
+
+                <?php for($i = 0; $i < 4; $i++){ ?>
+                    <div class="col-sm-3 col-xs-12 prod-item">
+                        <div class="col-xs-12 prod-border">
+                            <div class="promotion">
+                                -50%
+                            </div>
+                            <div class="text-center btn-group">
+                                <a href="gio-hang.html" class="btn btn-success btn-muangay">Mua ngay</a>
+                                <button type="button" class="btn btn-danger btn-muangay">Giỏ hàng</button>
+                            </div>
+                            <div class="image">
+                                <img src="<?php echo $block->getViewFileUrl('images/prods/img-prod-'. ($i % 3) .'.png'); ?>" />
+                            </div>
+                            <div class="desc">
+                                Bộ 2 thực phẩm bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da
+                            </div>
+                            <div class="col-xs-12 price">
+                                <div class="old-price pull-left">120.000 đ</div>
+                                <div class="new-price pull-right">90.000 đ</div>
+                            </div>
+                        </div>
+                    </div>
+                <?php } ?>
+
+            </div>
+        </div>
+    </div>
+</div>
