@@ -1,6 +1,6 @@
 <?php
 
-namespace Smacnew\Product\Controller\Index;
+namespace Smacnew\Product\Controller\Detail;
 
 use Magento\Framework\App\Action\Context;
 
@@ -17,7 +17,7 @@ class Index extends \Magento\Framework\App\Action\Action
     public function execute()
     {
         $resultPage = $this->_resultPageFactory->create();
-        $resultPage->addHandle('products_list');
+        $resultPage->addHandle('product_detail');
         return $resultPage;
     }
 }

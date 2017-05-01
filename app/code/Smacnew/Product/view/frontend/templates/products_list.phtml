@@ -1,0 +1,83 @@
+<div class="row top-after">
+    <div class="container">
+        <div class="col-xs-12">
+            <img src="<?php echo $block->getViewFileUrl('images/adiva (1).jpg'); ?>" style="width: 100%; height: auto;" />
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-xs-12 prod-group-items">
+            <div class="col-xs-12 prod-group-title">
+                <div class="prod-group-name pull-left">
+                    DANH MỤC A
+                </div>
+            </div>
+            <div class="col-xs-12 danh-muc-san-pham">
+                <div class="col-sm-5 col-xs-12 danh-muc-image">
+                    <img src="<?php echo $block->getViewFileUrl('images/adiva (1).jpg'); ?>" style="width: 100%; height: auto;" />
+                </div>
+                <div class="col-sm-7 col-xs-12 mo-ta-danh-muc">
+                    Thực phẩm chức năng Collagen ADIVA là sản phẩm bổ sung collagen để nuôi dưỡng vẻ đẹp làn da. Với nguyên liệu Collagen Peptite được nhập khẩu 100% từ Đức cùng công nghệ sản xuất hiện đại, Collagen ADIVA tự hào mang đến 4 ưu điểm nổi bật:
+
+                    <br /><br />Đánh tan da khô
+                    <br />Cải thiện da sạm
+                    <br />Ngăn ngừa và giảm nếp nhăn
+                    <br />Tăng chất nhờn và giảm viêm khớp
+                    <br />Theo kết quả khảo sát trên 400 người dùng của AC Nielsen Vietnam: 85% người dùng cảm nhận làn da ẩm mịn ngay sau 7 ngày. Sử dụng liệu trình 28 ngày, 94% người dùng công nhận làn da săn chắc, căng mịn, nếp nhăn giảm rõ rệt.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-xs-12 prod-group-items">
+            <div class="col-xs-12 prod-group-title">
+                <div class="prod-group-name pull-left">
+                    SẢN PHẨM TIÊU BIỂU
+                </div>
+            </div>
+            <div class="col-xs-12 prod-group-list">
+                <img src="<?php echo $block->getViewFileUrl('images/adiva.jpg'); ?>" style="width: 100%; height: auto;" />
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-xs-12 prod-group-items">
+            <div class="col-xs-12 prod-group-title">
+                <div class="prod-group-name pull-left">
+                    SẢN PHẨM ĐANG CÓ
+                </div>
+                <div class="prod-group-more pull-right">
+                    XEM TẤT CẢ &nbsp;&nbsp;<i class="fa fa-caret-right" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="col-xs-12 prod-group-list">
+
+                <?php for($i = 0; $i < 4; $i++) {?>
+                    <div class="col-sm-3 col-xs-12 prod-item">
+                        <div class="col-xs-12 prod-border">
+                            <div class="promotion">
+                                -50%
+                            </div>
+                            <div class="text-center btn-group">
+                                <a href="gio-hang.html" class="btn btn-success btn-muangay">Mua ngay</a>
+                                <button type="button" class="btn btn-danger btn-muangay">Giỏ hàng</button>
+                            </div>
+                            <a href="product/Detail">
+                                <div class="image">
+                                    <img src="<?php echo $block->getViewFileUrl('images/prods/img-prod-' . ($i % 3) . '.png'); ?>" />
+                                </div>
+                                <div class="desc">
+                                    Bộ 2 thực phẩm bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da bảo vệ sức khỏe ngăn ngừa lão hóa sáng da
+                                </div>
+                                <div class="col-xs-12 price">
+                                    <div class="old-price pull-left">120.000 đ</div>
+                                    <div class="new-price pull-right">90.000 đ</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                <?php }?>
+
+            </div>
+        </div>
+    </div>
+</div>
