@@ -12,24 +12,24 @@
         <remove src="css/print.css" />
 
         <!-- Add your own CSS files -->
+        <css src="plugins/bootstrap-3.3.7/css/bootstrap.min.css" />
+        <css src="plugins/awesome-4.7.0/css/font-awesome.min.css" />
+        <css src="plugins/owlcarousel-2.2.1/assets/owl.carousel.min.css" />
+        <css src="plugins/owlcarousel-2.2.1/assets/owl.theme.default.min.css" />
+        <css src="css/sm-core-css.css" />
+        <css src="css/rLdJAK.css" />
         <css src="css/navbar-menu.css" />
         <css src="css/overwrite-css.css" />
-        <css src="css/rLdJAK.css" />
-        <css src="css/sm-core-css.css" />
         <css src="css/style-sheet.css" />
-        <!--<css src="plugins/bootstrap-3.3.7/css/bootstrap.css" />-->
-        <css src="plugins/bootstrap-3.3.7/css/bootstrap.min.css" />
         <css src="plugins/bootstrap-3.3.7/css/bootstrap-theme.min.css" />
         <css src="css/style-sheet.css" />
 
-
-        <script src="js/scripts.js"/>
-        <script src="js/jquery.js"/>
         <script src="js/jquery.min.js"/>
         <script src="js/jquery.smartmenus.js"/>
-        <script src="plugins/owlcarousel-2.2.1/owl.carousel.js"/>
-        <!--<script src="plugins/bootstrap-3.3.7/js/bootstrap.js" />-->
         <script src="plugins/bootstrap-3.3.7/js/bootstrap.min.js" />
+        <script src="js/scripts.js"/>
+        <script src="js/jquery.js"/>
+        <script src="plugins/owlcarousel-2.2.1/owl.carousel.js"/>
 
     </head>
     <body>
@@ -45,15 +45,44 @@
             </arguments>
         </referenceBlock>
 
+
+        <!--
         <referenceContainer name="header.container">
-            <referenceContainer name="header.panel.wrapper" remove="true"/>
-            <referenceContainer name="header-wrapper" remove="true"/>
+            <container name="header.panel.wrapper" htmlClass="panel wrapper" htmlTag="div" before="-">
+                <container name="header.panel" label="Page Header Panel" htmlTag="div" htmlClass="panel header">
+                    <block class="Magento\Framework\View\Element\Template" name="skip_to_content" template="Magento_Theme::html/skip.phtml">
+                        <arguments>
+                            <argument name="target" xsi:type="string">contentarea</argument>
+                            <argument name="label" translate="true" xsi:type="string">Skip to Content</argument>
+                        </arguments>
+                    </block>
+                    <block class="Magento\Store\Block\Switcher" name="store_language" as="store_language" template="switch/languages.phtml"/>
+                    <block class="Magento\Framework\View\Element\Html\Links" name="top.links">
+                        <arguments>
+                            <argument name="css_class" xsi:type="string">header links</argument>
+                        </arguments>
+                    </block>
+                </container>
+            </container>
+            <container name="header-wrapper" label="Page Header" as="header-wrapper" htmlTag="div" htmlClass="header content">
+                <block class="Magento\Theme\Block\Html\Header\Logo" name="logo">
+                    <arguments>
+                        <argument name="logo_img_width" xsi:type="number">189</argument>
+                        <argument name="logo_img_height" xsi:type="number">64</argument>
+                    </arguments>
+                </block>
+            </container>
+        </referenceContainer>
+        -->
+        <referenceContainer name="header.container">
+            <container name="header.panel.wrapper" remove="true"/>
+            <container name="header-wrapper" remove="true"/>
             <container name="new-header">
                 <block class="Magento\Theme\Block\Html\Header" name="tgkd-header" template="html/header.phtml" cacheable="false" />
                 <block class="Magento\Theme\Block\Html\Topmenu" name="tgkd-topmenu" template="html/nav.phtml"/>
             </container>
             <remove name="top.links"/>
-        </referenceContainer>p
+        </referenceContainer>
 
         <referenceContainer name="footer-container">
             <container name="footer" as="footer" label="Page Footer" htmlTag="div" htmlClass="footer content">
@@ -65,5 +94,12 @@
                 <block class="Magento\Theme\Block\Html\Footer" name="absolute_footer" template="html/footer.phtml" />
             </container>
         </referenceContainer>
+
+        <script src="js/jquery.min.js"/>
+        <script src="js/jquery.smartmenus.js"/>
+        <script src="plugins/bootstrap-3.3.7/js/bootstrap.min.js" />
+        <script src="js/scripts.js"/>
+        <script src="js/jquery.js"/>
+        <script src="plugins/owlcarousel-2.2.1/owl.carousel.js"/>
     </body>
 </page>
